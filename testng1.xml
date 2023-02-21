@@ -13,6 +13,13 @@
   	</classes>
   </test> <!-- Test -->
   
+  <test  name="Test2">
+  	<parameter name="item_search" value="Tunic"></parameter>
+  		
+  	<classes>
+  		<class name="tests.MagentoSearch"></class>
+  	</classes>
+  </test> <!-- Test -->
   <test name="Test on Chrome">
  
     <classes>
@@ -23,6 +30,7 @@
 
       <class name="tests.MagentoLoginTest"/>
       <class name="tests.MagentoCreateAccountTest"></class> 
+      <class name="tests.MagentoAddItemtoCart"></class>
       
       
     </classes>
