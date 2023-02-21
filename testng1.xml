@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite TestNG Parameters">
+<listeners>
+<listener class-name="listener.CustomListener"></listener>
+</listeners>
+
+ <test  name="Test1">
+  	<parameter name="item_search" value="Bag"></parameter>
+  		
+  	<classes>
+  		<class name="tests.MagentoSearch"></class>
+  	</classes>
+  </test> <!-- Test -->
+  
+  <test name="Test on Chrome">
+ 
+    <classes>
+      <class name="tests.HomepageTest">
+      
+      	</class>
+      <!--class name="tests.LaunchbrowserTest"/ -->
+
+      <class name="tests.MagentoLoginTest"/>
+      <class name="tests.MagentoCreateAccountTest"></class> 
+      
+      
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->

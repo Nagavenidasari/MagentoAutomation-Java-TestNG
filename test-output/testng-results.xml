@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T19:33:19 CST" name="Suite TestNG Parameters" finished-at="2023-02-20T19:34:28 CST" duration-ms="68984">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T19:33:19 CST" name="Test1" finished-at="2023-02-20T19:33:53 CST" duration-ms="34301">
+      <class name="tests.MagentoSearch">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-20T19:33:19 CST" name="setup" finished-at="2023-02-20T19:33:19 CST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@7d4f9aae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-20T19:33:19 CST" name="MagentoSearchTest" finished-at="2023-02-20T19:33:53 CST" duration-ms="33461" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bag]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [10] but found [4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [10] but found [4]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at tests.MagentoSearch.MagentoSearchTest(MagentoSearch.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSearchTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-20T19:33:53 CST" name="getResult" finished-at="2023-02-20T19:33:53 CST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoSearchTest status=FAILURE method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@7d4f9aae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-20T19:33:53 CST" name="endTest" finished-at="2023-02-20T19:33:53 CST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoSearch -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-02-20T19:33:53 CST" name="Test on Chrome" finished-at="2023-02-20T19:34:28 CST" duration-ms="34670">
+      <class name="tests.HomepageTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:33:53 CST" name="setup" finished-at="2023-02-20T19:33:53 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Homepagetest()[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:33:53 CST" name="Homepagetest" finished-at="2023-02-20T19:33:55 CST" duration-ms="1715" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Home Page - Magento eCommerce] but found [Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Home Page - Magento eCommerce] but found [Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.HomepageTest.Homepagetest(HomepageTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepagetest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:33:55 CST" name="getResult" finished-at="2023-02-20T19:33:56 CST" duration-ms="673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Homepagetest status=FAILURE method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyLogo()[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:33:56 CST" name="verifyLogo" finished-at="2023-02-20T19:34:00 CST" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:33:56 CST" name="setup" finished-at="2023-02-20T19:33:56 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:34:00 CST" name="getResult" finished-at="2023-02-20T19:34:00 CST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.HomepageTest@644baf4a]" started-at="2023-02-20T19:34:28 CST" name="endTest" finished-at="2023-02-20T19:34:28 CST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.HomepageTest -->
+      <class name="tests.MagentoCreateAccountTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@1ed4ae0f]" started-at="2023-02-20T19:34:14 CST" name="setup" finished-at="2023-02-20T19:34:14 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@1ed4ae0f]" started-at="2023-02-20T19:34:14 CST" name="MagentocreateAccount" finished-at="2023-02-20T19:34:28 CST" duration-ms="13540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentocreateAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@1ed4ae0f]" started-at="2023-02-20T19:34:28 CST" name="getResult" finished-at="2023-02-20T19:34:28 CST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentocreateAccount status=SUCCESS method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoCreateAccountTest -->
+      <class name="tests.MagentoLoginTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@7526515b]" started-at="2023-02-20T19:34:00 CST" name="setup" finished-at="2023-02-20T19:34:00 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@7526515b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@7526515b]" started-at="2023-02-20T19:34:00 CST" name="MagentoLogintest" finished-at="2023-02-20T19:34:14 CST" duration-ms="13652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoLogintest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@7526515b]" started-at="2023-02-20T19:34:14 CST" name="getResult" finished-at="2023-02-20T19:34:14 CST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@7526515b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoLoginTest -->
+    </test> <!-- Test on Chrome -->
+  </suite> <!-- Suite TestNG Parameters -->
+</testng-results>
