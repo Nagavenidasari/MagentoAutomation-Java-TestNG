@@ -43,33 +43,10 @@ public class MagentoSearch extends TestBase{
 		for(int i =0;i <items.size();i++) {
 			System.out.println(items.get(i));
 		}
-		//search.pages();
-		/*boolean msg = FindString(item_search);
-		if(msg == true)
-		{
-			logger.createNode("All items are found contains searched item: "+item_search);
-			Assert.assertTrue(msg);
-			
-		}else if(msg == false){
-			logger.createNode("one or more items may not contain searched item: "+item_search);
-			Assert.assertFalse(msg);
-			
-		}*/
 		
 		int itemsseen_count = countItems(item_search);
 		log("Items that contain searched item:  "+item_search+" "+itemsseen_count);
 		Assert.assertEquals(itemsseen_count, items.size());
-		
-		/*if(itemsseen_count == items.size()) {
-			
-			logger.createNode("All items are found contains searched item: "+item_search);
-			Assert.assertEquals(itemsseen_count, items.size());
-		}
-		else {
-			logger.createNode("one or more items may not contain searched item: "+item_search);
-			Assert.assertFalse(false);
-			
-		}*/
 		
 		
 	}

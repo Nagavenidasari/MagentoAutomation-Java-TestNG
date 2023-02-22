@@ -62,7 +62,7 @@ public class MagentoSearchPageObjects {
 		//boolean pages_footer = isElementDisplayed();
 		//System.out.println(pages_footer);
 		
-		
+		//only current page is available 
 		if(total_pages == 0) {
 			
 			
@@ -73,7 +73,7 @@ public class MagentoSearchPageObjects {
 				all_elements_text.add(myList.get(i).getText());
 	       
 		}return all_elements_text;
-
+			// navigating through multiple pages and collecting the items.
 		}else {
 			
 			myList = driver.findElements(list_sortitems);
@@ -84,16 +84,11 @@ public class MagentoSearchPageObjects {
 			}
 		
 			for(int j=1 ;j<=total_pages-1;j++) {
-				/*int total_pages1 = pages();
-				//if(driver.findElement(page_next).isDisplayed()) {
-					String xpathpather = "//*[@id='maincontent']/div[3]/div[1]/div[2]/div[3]/div[2]/ul/li["+(j+2)+"]/a/";
-					System.out.println(xpathpather);
-					Thread.sleep(2000);
-					driver.findElement(By.xpath("//*[@id='maincontent']/div[3]/div[1]/div[2]/div[3]/div[2]/ul/li["+(j+2)+"]/a")).click();*/
+				
 				JavascriptExecutor Js1 = (JavascriptExecutor) driver;
 				Js1.executeScript("window.scrollBy(0,1500)");  
 				Thread.sleep(2000);
-				driver.findElement(sibling_page).click();
+				driver.findElement(sibling_page).click(); //click on immediate nextpage.
 				Thread.sleep(2000);
 				myList=driver.findElements(list_sortitems);
 				for(int i=0; i< myList.size(); i++){
@@ -110,12 +105,13 @@ public class MagentoSearchPageObjects {
 		
 	}
 	
+	// get the number of pages in the webpage
 	public int pages() {
 		
-		List<WebElement> myList1 = driver.findElements(pages);
+		List<WebElement> myList1 = driver.findElements(pages); // get all the pagenumber counts
 		int pages_count = myList1.size();
 		System.out.println("Pages Count: "+pages_count);
-		/*ArrayList<String> all_elements_text1= new ArrayList<String>();
+		ArrayList<String> all_elements_text1= new ArrayList<String>();
 		
 		for(int i=0; i< myList1.size(); i++){
 
@@ -123,7 +119,7 @@ public class MagentoSearchPageObjects {
 	        all_elements_text1.add(myList1.get(i).getText());
 	        System.out.println("Page numbers : "+all_elements_text1.get(i));
 
-		}*/
+		}
 		return pages_count;
 		
 		
