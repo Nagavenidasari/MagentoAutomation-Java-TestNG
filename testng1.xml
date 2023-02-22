@@ -32,7 +32,7 @@
       <class name="tests.MagentoCreateAccountTest"></class> 
       <class name="tests.MagentoAddItemtoCart"></class>
       <class name="tests.MagentoSortItems_Price"></class>
-      
+      <class name="tests.OrangeHRMLoginTest"></class>
       
     </classes>
   </test> <!-- Test1 -->

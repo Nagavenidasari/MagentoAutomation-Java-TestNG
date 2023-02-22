@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="12" passed="6" failed="2" skipped="0">
+<testng-results ignored="5" total="14" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-21T19:55:31 CST" name="Suite TestNG Parameters" finished-at="2023-02-21T19:58:13 CST" duration-ms="162617">
+  <suite started-at="2023-02-22T09:22:40 CST" name="Suite TestNG Parameters" finished-at="2023-02-22T09:25:33 CST" duration-ms="173655">
     <groups>
     </groups>
-    <test started-at="2023-02-21T19:55:31 CST" name="Test1" finished-at="2023-02-21T19:56:05 CST" duration-ms="34241">
+    <test started-at="2023-02-22T09:22:40 CST" name="Test1" finished-at="2023-02-22T09:23:14 CST" duration-ms="34002">
       <class name="tests.MagentoSearch">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-21T19:55:31 CST" name="setup" finished-at="2023-02-21T19:55:31 CST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-22T09:22:40 CST" name="setup" finished-at="2023-02-22T09:22:40 CST" duration-ms="232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-21T19:55:31 CST" name="MagentoSearchTest" finished-at="2023-02-21T19:56:04 CST" duration-ms="33349" status="FAIL">
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-22T09:22:40 CST" name="MagentoSearchTest" finished-at="2023-02-22T09:23:13 CST" duration-ms="33256" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MagentoSearchTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-21T19:56:04 CST" name="getResult" finished-at="2023-02-21T19:56:05 CST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-22T09:23:13 CST" name="getResult" finished-at="2023-02-22T09:23:13 CST" duration-ms="262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,26 +84,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-21T19:56:05 CST" name="endTest" finished-at="2023-02-21T19:56:05 CST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSearch@7d4f9aae]" started-at="2023-02-22T09:23:13 CST" name="endTest" finished-at="2023-02-22T09:23:14 CST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- tests.MagentoSearch -->
     </test> <!-- Test1 -->
-    <test started-at="2023-02-21T19:56:05 CST" name="Test2" finished-at="2023-02-21T19:56:37 CST" duration-ms="32052">
+    <test started-at="2023-02-22T09:23:14 CST" name="Test2" finished-at="2023-02-22T09:23:46 CST" duration-ms="31914">
       <class name="tests.MagentoSearch">
-        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-21T19:56:05 CST" name="MagentoSearchTest" finished-at="2023-02-21T19:56:37 CST" duration-ms="31846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tunic]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSearchTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-21T19:56:05 CST" name="setup" finished-at="2023-02-21T19:56:05 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-22T09:23:14 CST" name="setup" finished-at="2023-02-22T09:23:14 CST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +103,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-21T19:56:37 CST" name="getResult" finished-at="2023-02-21T19:56:37 CST" duration-ms="179" status="PASS">
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-22T09:23:14 CST" name="MagentoSearchTest" finished-at="2023-02-22T09:23:45 CST" duration-ms="31770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tunic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSearchTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-22T09:23:45 CST" name="getResult" finished-at="2023-02-22T09:23:45 CST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,26 +125,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-21T19:56:37 CST" name="endTest" finished-at="2023-02-21T19:56:37 CST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSearch@2e385cce]" started-at="2023-02-22T09:23:45 CST" name="endTest" finished-at="2023-02-22T09:23:46 CST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- tests.MagentoSearch -->
     </test> <!-- Test2 -->
-    <test started-at="2023-02-21T19:56:37 CST" name="Test on Chrome" finished-at="2023-02-21T19:58:13 CST" duration-ms="96305">
-      <class name="tests.HomepageTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:37 CST" name="setup" finished-at="2023-02-21T19:56:37 CST" duration-ms="1" status="PASS">
+    <test started-at="2023-02-22T09:23:46 CST" name="Test on Chrome" finished-at="2023-02-22T09:25:33 CST" duration-ms="107719">
+      <class name="tests.OrangeHRMLoginTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@8f2ef19]" started-at="2023-02-22T09:25:20 CST" name="setup" finished-at="2023-02-22T09:25:20 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@2e8c1c9b] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@8f2ef19] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Homepagetest()[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:37 CST" name="Homepagetest" finished-at="2023-02-21T19:56:40 CST" duration-ms="3203" status="FAIL">
+        <test-method signature="LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@8f2ef19]" started-at="2023-02-22T09:25:20 CST" name="LoginTest" finished-at="2023-02-22T09:25:33 CST" duration-ms="13323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@8f2ef19]" started-at="2023-02-22T09:25:33 CST" name="getResult" finished-at="2023-02-22T09:25:33 CST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.OrangeHRMLoginTest -->
+      <class name="tests.HomepageTest">
+        <test-method signature="Homepagetest()[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:46 CST" name="Homepagetest" finished-at="2023-02-22T09:23:47 CST" duration-ms="1614" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Home Page - Magento eCommerce] but found [Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites]]]>
@@ -192,69 +209,80 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Homepagetest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:40 CST" name="getResult" finished-at="2023-02-21T19:56:41 CST" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:46 CST" name="setup" finished-at="2023-02-22T09:23:46 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Homepagetest status=FAILURE method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@2e8c1c9b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:41 CST" name="setup" finished-at="2023-02-21T19:56:41 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@2e8c1c9b] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@5b1669c0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:41 CST" name="verifyLogo" finished-at="2023-02-21T19:56:46 CST" duration-ms="4977" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:56:46 CST" name="getResult" finished-at="2023-02-21T19:56:46 CST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:47 CST" name="getResult" finished-at="2023-02-22T09:23:48 CST" duration-ms="573" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@2e8c1c9b] output={null}]]]>
+                <![CDATA[[TestResult name=Homepagetest status=FAILURE method=HomepageTest.Homepagetest()[pri:0, instance:tests.HomepageTest@5b1669c0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.HomepageTest@2e8c1c9b]" started-at="2023-02-21T19:58:13 CST" name="endTest" finished-at="2023-02-21T19:58:13 CST" duration-ms="29" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:48 CST" name="verifyLogo" finished-at="2023-02-22T09:23:52 CST" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:48 CST" name="setup" finished-at="2023-02-22T09:23:48 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@5b1669c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:23:52 CST" name="getResult" finished-at="2023-02-22T09:23:53 CST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=HomepageTest.verifyLogo()[pri:0, instance:tests.HomepageTest@5b1669c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.HomepageTest@5b1669c0]" started-at="2023-02-22T09:25:33 CST" name="endTest" finished-at="2023-02-22T09:25:33 CST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- tests.HomepageTest -->
       <class name="tests.MagentoSortItems_Price">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@6e9175d8]" started-at="2023-02-21T19:57:50 CST" name="setup" finished-at="2023-02-21T19:57:50 CST" duration-ms="0" status="PASS">
+        <test-method signature="MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@2eae8e6e]" started-at="2023-02-22T09:24:58 CST" name="MagentoSortbyPriceTest" finished-at="2023-02-22T09:25:20 CST" duration-ms="22014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSortbyPriceTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@2eae8e6e]" started-at="2023-02-22T09:24:58 CST" name="setup" finished-at="2023-02-22T09:24:58 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@6e9175d8] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@2eae8e6e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@6e9175d8]" started-at="2023-02-21T19:57:50 CST" name="MagentoSortbyPriceTest" finished-at="2023-02-21T19:58:13 CST" duration-ms="22807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSortbyPriceTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@6e9175d8]" started-at="2023-02-21T19:58:13 CST" name="getResult" finished-at="2023-02-21T19:58:13 CST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@2eae8e6e]" started-at="2023-02-22T09:25:20 CST" name="getResult" finished-at="2023-02-22T09:25:20 CST" duration-ms="187" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentoSortbyPriceTest status=SUCCESS method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@6e9175d8] output={null}]]]>
+                <![CDATA[[TestResult name=MagentoSortbyPriceTest status=SUCCESS method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@2eae8e6e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -263,26 +291,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getResult -->
       </class> <!-- tests.MagentoSortItems_Price -->
       <class name="tests.MagentoCreateAccountTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@449a4f23]" started-at="2023-02-21T19:57:00 CST" name="setup" finished-at="2023-02-21T19:57:00 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@6e9175d8]" started-at="2023-02-22T09:24:07 CST" name="setup" finished-at="2023-02-22T09:24:07 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@449a4f23] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@6e9175d8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@449a4f23]" started-at="2023-02-21T19:57:00 CST" name="MagentocreateAccount" finished-at="2023-02-21T19:57:14 CST" duration-ms="13879" status="PASS">
+        <test-method signature="MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@6e9175d8]" started-at="2023-02-22T09:24:07 CST" name="MagentocreateAccount" finished-at="2023-02-22T09:24:24 CST" duration-ms="16926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MagentocreateAccount -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@449a4f23]" started-at="2023-02-21T19:57:14 CST" name="getResult" finished-at="2023-02-21T19:57:14 CST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@6e9175d8]" started-at="2023-02-22T09:24:24 CST" name="getResult" finished-at="2023-02-22T09:24:24 CST" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentocreateAccount status=SUCCESS method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@449a4f23] output={null}]]]>
+                <![CDATA[[TestResult name=MagentocreateAccount status=SUCCESS method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@6e9175d8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -291,26 +319,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getResult -->
       </class> <!-- tests.MagentoCreateAccountTest -->
       <class name="tests.MagentoAddItemtoCart">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@1530c739]" started-at="2023-02-21T19:57:14 CST" name="setup" finished-at="2023-02-21T19:57:14 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@7d0b7e3c]" started-at="2023-02-22T09:24:24 CST" name="setup" finished-at="2023-02-22T09:24:24 CST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@1530c739] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7d0b7e3c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@1530c739]" started-at="2023-02-21T19:57:14 CST" name="MagentoAddItemsTest" finished-at="2023-02-21T19:57:50 CST" duration-ms="36005" status="PASS">
+        <test-method signature="MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7d0b7e3c]" started-at="2023-02-22T09:24:24 CST" name="MagentoAddItemsTest" finished-at="2023-02-22T09:24:57 CST" duration-ms="33359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MagentoAddItemsTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@1530c739]" started-at="2023-02-21T19:57:50 CST" name="getResult" finished-at="2023-02-21T19:57:50 CST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@7d0b7e3c]" started-at="2023-02-22T09:24:57 CST" name="getResult" finished-at="2023-02-22T09:24:58 CST" duration-ms="186" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentoAddItemsTest status=SUCCESS method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@1530c739] output={null}]]]>
+                <![CDATA[[TestResult name=MagentoAddItemsTest status=SUCCESS method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7d0b7e3c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -319,26 +347,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getResult -->
       </class> <!-- tests.MagentoAddItemtoCart -->
       <class name="tests.MagentoLoginTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@53fe15ff]" started-at="2023-02-21T19:56:46 CST" name="setup" finished-at="2023-02-21T19:56:46 CST" duration-ms="1" status="PASS">
+        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@78e4deb0]" started-at="2023-02-22T09:23:53 CST" name="MagentoLogintest" finished-at="2023-02-22T09:24:07 CST" duration-ms="14149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoLogintest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@78e4deb0]" started-at="2023-02-22T09:23:53 CST" name="setup" finished-at="2023-02-22T09:23:53 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@53fe15ff] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@78e4deb0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@53fe15ff]" started-at="2023-02-21T19:56:46 CST" name="MagentoLogintest" finished-at="2023-02-21T19:57:00 CST" duration-ms="13800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoLogintest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@53fe15ff]" started-at="2023-02-21T19:57:00 CST" name="getResult" finished-at="2023-02-21T19:57:00 CST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@78e4deb0]" started-at="2023-02-22T09:24:07 CST" name="getResult" finished-at="2023-02-22T09:24:07 CST" duration-ms="171" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@53fe15ff] output={null}]]]>
+                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@78e4deb0] output={null}]]]>
               </value>
             </param>
           </params>
