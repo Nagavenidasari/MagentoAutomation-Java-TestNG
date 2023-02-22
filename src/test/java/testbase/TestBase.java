@@ -39,7 +39,7 @@ public class TestBase {
 	public ExtentReports extent = null;
 	public ExtentTest logger = null;
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void setup(ITestResult result)
 	{
 		extent = ExtentManager.getReports();
@@ -58,7 +58,7 @@ public class TestBase {
 		
 	}*/
 	
-	@AfterTest
+	@AfterTest(alwaysRun=true)
 	public void endTest() {
 		extent.flush();
 	}
@@ -89,30 +89,21 @@ public class TestBase {
 		
 	}
 	
-	/*public void logPass(String msg) {
-		System.out.println(msg);
-		logger.log(Status.PASS, msg);
-		
-	}
-	public void logFail(String msg) {
-		System.out.println(msg);
-		logger.log(Status.FAIL, msg);
-		
-	}*/
+	
 	
 	//This method is to capture the screenshot and return the path of the screenshot.
 	public String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
-	String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-	TakesScreenshot ts = (TakesScreenshot) driver;
-	File source = ts.getScreenshotAs(OutputType.FILE);
-	// after execution, you could see a folder "FailedTestsScreenshots" under src folder
-	String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
-	File finalDestination = new File(destination);
-	FileUtils.copyFile(source, finalDestination);
-	return destination;
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		// after execution, you could see a folder "FailedTestsScreenshots" under src folder
+		String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
+		File finalDestination = new File(destination);
+		FileUtils.copyFile(source, finalDestination);
+		return destination;
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void getResult(ITestResult result) throws Exception{
 		if(result.getStatus() == ITestResult.FAILURE){
 		//MarkupHelper is used to display the output in different colors
@@ -133,7 +124,7 @@ public class TestBase {
 		logger.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
 		}
 		driver.quit();
-		}
+	}
 	
 
 }

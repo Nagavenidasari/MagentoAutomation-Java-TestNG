@@ -8,7 +8,7 @@ import testbase.TestBase;
 public class MagentoLoginTest extends TestBase{
 	
 	
-	@Test
+	@Test(groups= {"smoke","regression"})
 	public void MagentoLogintest() throws Exception {
 		
 		//logger = extent.createTest("Login Test");

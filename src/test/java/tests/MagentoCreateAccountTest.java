@@ -9,7 +9,7 @@ import testbase.TestBase;
 
 public class MagentoCreateAccountTest extends TestBase{
 	
-	@Test
+	@Test(groups= {"regression"})
 	public void MagentocreateAccount() throws Exception {
 		
 		launchBrowser("chrome");

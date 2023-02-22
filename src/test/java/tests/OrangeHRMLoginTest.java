@@ -1,5 +1,6 @@
 package tests;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
@@ -10,7 +11,7 @@ import testbase.TestBase;
 
 public class OrangeHRMLoginTest extends TestBase{
 	
-	@Test
+	@Test(groups= {"smoke","regression"})
 	public void LoginTest() throws Exception {
 		
 		
@@ -43,6 +44,33 @@ public class OrangeHRMLoginTest extends TestBase{
 		
 		
 	}
+	
+	@Test(groups= {"smoke","regression"})
+	@Parameters({"username","password"})
+	public void InvalidLoginTest(String username,String password) throws Exception {
+		
+		
+		launchBrowser("chrome");
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		log("Launched ORANGEHRM website");
+		Thread.sleep(2000);
+		OrangeHRMLoginPageObjects hrm= new OrangeHRMLoginPageObjects(driver);
+		log("Set username: "+username);
+		hrm.set_username(username);
+		log("Set username: "+password);
+		hrm.set_password(password);
+		log("click login");
+		hrm.clk_submit();
+		String exp_error = "Invalid credentials";
+		String act_error = hrm.invalid_login();
+		log("Actual Error: "+act_error);
+		log("Expected Error: "+exp_error);
+		Assert.assertEquals(act_error, exp_error);
+		
+		
+		
+	}
+	
 	
 	
 	

@@ -14,7 +14,7 @@ import pages.MagentoSortItems_PricePageObjects;
 public class MagentoSortItems_Price extends TestBase {
 	
 	List<String> price_list;
-	@Test
+	@Test(groups= {"regression"})
 	public void MagentoSortbyPriceTest() throws Exception {
 		
 		launchBrowser("chrome");

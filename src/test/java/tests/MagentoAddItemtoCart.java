@@ -11,7 +11,7 @@ import pages.MagentoAdditemstoCartPageObjects;
 public class MagentoAddItemtoCart extends TestBase{
 	
 	
-	@Test
+	@Test(groups= {"regression"})
 	public void MagentoAddItemsTest() throws Exception {
 		
 		launchBrowser("chrome");

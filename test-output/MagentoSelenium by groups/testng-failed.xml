@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MagentoSelenium by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.MagentoLoginTest">
+        <methods>
+          <include name="MagentoLogintest"/>
+        </methods>
+      </class> <!-- tests.MagentoLoginTest -->
+      <class name="tests.OrangeHRMLoginTest">
+        <methods>
+          <include name="InvalidLoginTest"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- tests.OrangeHRMLoginTest -->
+      <class name="tests.HomepageTest">
+        <methods>
+          <include name="Homepagetest"/>
+        </methods>
+      </class> <!-- tests.HomepageTest -->
+    </classes>
+  </test> <!-- GRP-smoke(failed) -->
+</suite> <!-- Failed suite [MagentoSelenium by groups] -->

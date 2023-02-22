@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests">
+	<listeners>
+			<listener class-name="listener.CustomListener"></listener>
+	</listeners>
+		
+	<test name = "Regression Tests">	
+	<parameter name="username" value="Admin"></parameter>
+	<parameter name="password" value="Admin"></parameter>
+	<parameter name="item_search" value="Bag"></parameter>
+		<groups>
+			 <run>
+				 <include name="regression"></include>
+				  	<!--include name="regression"></include-->
+			 </run>		  
+		 </groups>
+		 <classes>
+	  		<class name="tests.OrangeHRMLoginTest"></class>
+	  		<class name="tests.MagentoLoginTest"/>
+      		<class name="tests.MagentoCreateAccountTest"></class> 
+      		<class name="tests.MagentoAddItemtoCart"></class>
+      		<class name="tests.MagentoSortItems_Price"></class>
+  			<class name="tests.MagentoSearch"></class>
+  			<class name="tests.HomepageTest"/>
+  
+	  	</classes>
+	</test>
+	   
+</suite> <!-- Suite -->

@@ -11,7 +11,7 @@ import testbase.TestBase;
 public class LaunchbrowserTest extends TestBase{
 	
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void browserTest() throws Exception {
 		
 		

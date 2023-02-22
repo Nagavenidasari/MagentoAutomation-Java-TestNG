@@ -9,7 +9,7 @@ import testbase.TestBase;
 public class HomepageTest extends TestBase {
 	
 	
-	@Test
+	@Test(groups= {"smoke","regression"})
 	public void Homepagetest() throws Exception {
 			
 		log("Launching Magento Website");
@@ -25,7 +25,7 @@ public class HomepageTest extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(groups= {"sanity","regression"})
 	public void verifyLogo() throws Exception {
 		
 		launchBrowser("CHROME");

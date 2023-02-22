@@ -17,7 +17,7 @@ public class MagentoSearch extends TestBase{
 	List<String> items;
 	
 	
-	@Test
+	@Test(groups= {"sanity","regression"})
 	@Parameters({"item_search"})
 	public void MagentoSearchTest(String item_search) throws Exception {
 		

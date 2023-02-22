@@ -18,7 +18,7 @@ public class OrangeHRMLoginPageObjects {
 	By btn_submit = By.xpath("//button[@type='submit']");
 	By drp_profile = By.xpath("//li[@class='oxd-userdropdown']");
 	By lnk_logout = By.xpath("//ul[@class='oxd-dropdown-menu']/li[4]/a");
-	
+	By txt_error = By.xpath("//div[@class='orangehrm-login-error']/div/div/p");
 	
 	public void set_username(String username) {
 		
@@ -52,6 +52,11 @@ public class OrangeHRMLoginPageObjects {
 	public void clk_logout() {
 		
 		driver.findElement(lnk_logout).click();
+	}
+	
+	public String invalid_login() {
+		
+		return (driver.findElement(txt_error).getText());
 	}
 
 }
