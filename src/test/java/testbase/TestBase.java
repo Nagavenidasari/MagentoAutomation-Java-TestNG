@@ -34,10 +34,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
 	
-	public WebDriver driver = null;
+	public static WebDriver driver;
 	public String browser;
 	public ExtentReports extent = null;
 	public ExtentTest logger = null;
+	public String browserName;
+	
 	
 	@BeforeMethod(alwaysRun=true)
 	public void setup(ITestResult result)
@@ -45,28 +47,18 @@ public class TestBase {
 		extent = ExtentManager.getReports();
 		logger = extent.createTest(result.getMethod().getMethodName().toUpperCase());
 		result.setAttribute("reporter", logger);
-		    
-       
+		
+		
+		      
 	}
-	
-	
-	
-	/*@AfterMethod
-	public void Aftertest() {
-		driver.close();
-		driver.quit();
 		
-	}*/
-	
-	@AfterTest(alwaysRun=true)
-	public void endTest() {
-		extent.flush();
-	}
-	
-	
-	public WebDriver launchBrowser(String browserName) {
+	@Parameters("browserName")
+	@BeforeTest(alwaysRun=true)
+	public void launchBrowser(String browserName) throws Exception {
 		
-		
+		System.out.println("Browser Name: "+browserName);
+		System.out.println("Thread ID: "+ Thread.currentThread().getId());
+		Thread.sleep(2000);
 		if(browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -80,7 +72,15 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		
-		return driver;
+	
+	}
+	
+	@AfterTest(alwaysRun=true)
+	public void endTest() {
+		extent.flush();
+		driver.close();
+		driver.quit();
+		
 	}
 	
 	public void log(String msg) {
@@ -123,7 +123,7 @@ public class TestBase {
 		{
 		logger.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
 		}
-		driver.quit();
+		
 	}
 	
 

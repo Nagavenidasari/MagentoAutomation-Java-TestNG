@@ -17,7 +17,7 @@ public class MagentoSortItems_Price extends TestBase {
 	@Test(groups= {"regression"})
 	public void MagentoSortbyPriceTest() throws Exception {
 		
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);

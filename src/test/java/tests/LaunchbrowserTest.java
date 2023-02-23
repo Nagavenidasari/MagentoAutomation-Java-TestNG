@@ -19,7 +19,7 @@ public class LaunchbrowserTest extends TestBase{
 		
 		//log("Launching the browser");
 		//test.log(Status.INFO,"Launching the browser");
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
 		//log("Entering the URL (magento)");
 		//test.log(Status.INFO,"Entering the URL (magento)");
 		driver.get("https://magento.softwaretestingboard.com/");

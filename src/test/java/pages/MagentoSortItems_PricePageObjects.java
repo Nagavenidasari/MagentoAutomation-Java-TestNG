@@ -15,7 +15,7 @@ import pages.MagentoSearchPageObjects;
 
 public class MagentoSortItems_PricePageObjects {
 
-WebDriver driver = null;
+WebDriver driver ;
 
 	public MagentoSortItems_PricePageObjects(WebDriver driver) {
 		this.driver = driver;

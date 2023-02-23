@@ -22,7 +22,7 @@ public class MagentoSearch extends TestBase{
 	public void MagentoSearchTest(String item_search) throws Exception {
 		
 		//item_search = "Bag";
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);

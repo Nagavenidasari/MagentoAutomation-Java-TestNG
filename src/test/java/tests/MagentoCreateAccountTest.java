@@ -12,7 +12,7 @@ public class MagentoCreateAccountTest extends TestBase{
 	@Test(groups= {"regression"})
 	public void MagentocreateAccount() throws Exception {
 		
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);
@@ -50,12 +50,12 @@ public class MagentoCreateAccountTest extends TestBase{
 public String firstname() {
 	
 	Random random = new Random();
-	String[] firstNames = {"John", "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Robin","Bob","Sarah","Natalie","Krishna"};
+	String[] firstNames = {"John", "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Robin","Bob","Sarah","Natalie","Krishna","Chanel","Evan"};
 	String randomfname = firstNames[random.nextInt(firstNames.length)];
 	return randomfname;
 }
 public String lastname() {
-	String[] lastNames = {"Doe", "Smith", "Johnson", "Williams", "Jones", "Brown", "Hood","Patel","Simson","Dennis"};
+	String[] lastNames = {"Doe", "Smith", "Johnson", "Williams", "Jones", "Brown", "Hood","Patel","Simson","Dennis","Prada","Andeson"};
 	Random random = new Random();
 	String randomlname = lastNames[random.nextInt(lastNames.length)];
 	return randomlname;

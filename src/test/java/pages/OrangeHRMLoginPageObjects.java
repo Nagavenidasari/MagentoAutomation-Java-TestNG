@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class OrangeHRMLoginPageObjects {
 	
 	
-	 WebDriver driver = null;
+	 WebDriver driver;
 
 	public OrangeHRMLoginPageObjects(WebDriver driver) {
 		

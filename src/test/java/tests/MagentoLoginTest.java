@@ -12,11 +12,12 @@ public class MagentoLoginTest extends TestBase{
 	public void MagentoLogintest() throws Exception {
 		
 		//logger = extent.createTest("Login Test");
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
+		MagentoLoginPageObjects loginpage = new MagentoLoginPageObjects(driver);
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);
-		MagentoLoginPageObjects loginpage = new MagentoLoginPageObjects(driver);
+		//MagentoLoginPageObjects loginpage = new MagentoLoginPageObjects(driver);
 		loginpage.clkSigninlnk();
 		loginpage.setUsetname("roni_cost@example.com");
 		log("Entered Username");

@@ -14,7 +14,7 @@ public class MagentoAddItemtoCart extends TestBase{
 	@Test(groups= {"regression"})
 	public void MagentoAddItemsTest() throws Exception {
 		
-		launchBrowser("chrome");
+		//launchBrowser("chrome");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(2000);

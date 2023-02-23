@@ -8,25 +8,94 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Regression Test</th></tr>
-<tr><td><a href="#t0">Regression Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">138,149</td><td>regression</td><td></td></tr>
+<tr><th colspan="8">Multibrowser Tests</th></tr>
+<tr><td><a href="#t0">Tests on Chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,526</td><td>smoke</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test on Firefox</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">107,688</td><td>regression, smoke</td><td></td></tr>
+<tr><td><a href="#t2">Test on Edge</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">116,642</td><td>regression, smoke, sanity</td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">250,856</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.HomepageTest</td><td><a href="#m0">Homepagetest</a></td><td rowspan="1">1677091710173</td><td rowspan="1">1632</td></tr><tr class="failedodd"><td rowspan="1">tests.MagentoSearch</td><td><a href="#m1">MagentoSearchTest</a></td><td rowspan="1">1677091678000</td><td rowspan="1">31863</td></tr><tr><th colspan="4">Regression Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.HomepageTest</td><td><a href="#m2">verifyLogo</a></td><td rowspan="1">1677091712390</td><td rowspan="1">4687</td></tr><tr class="passedodd"><td rowspan="1">tests.MagentoAddItemtoCart</td><td><a href="#m3">MagentoAddItemsTest</a></td><td rowspan="1">1677091621681</td><td rowspan="1">33580</td></tr><tr class="passedeven"><td rowspan="1">tests.MagentoCreateAccountTest</td><td><a href="#m4">MagentocreateAccount</a></td><td rowspan="1">1677091608778</td><td rowspan="1">12715</td></tr><tr class="passedodd"><td rowspan="1">tests.MagentoLoginTest</td><td><a href="#m5">MagentoLogintest</a></td><td rowspan="1">1677091594892</td><td rowspan="1">13696</td></tr><tr class="passedeven"><td rowspan="1">tests.MagentoSortItems_Price</td><td><a href="#m6">MagentoSortbyPriceTest</a></td><td rowspan="1">1677091655438</td><td rowspan="1">22378</td></tr><tr class="passedodd"><td rowspan="2">tests.OrangeHRMLoginTest</td><td><a href="#m7">InvalidLoginTest</a></td><td rowspan="1">1677091579569</td><td rowspan="1">7439</td></tr><tr class="passedodd"><td><a href="#m8">LoginTest</a></td><td rowspan="1">1677091587135</td><td rowspan="1">7628</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Multibrowser Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tests on Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.MagentoLoginTest</td><td><a href="#m0">MagentoLogintest</a></td><td rowspan="1">1677116606734</td><td rowspan="1">13045</td></tr><tr class="passedodd"><td rowspan="2">tests.OrangeHRMLoginTest</td><td><a href="#m1">InvalidLoginTest</a></td><td rowspan="1">1677116598012</td><td rowspan="1">5406</td></tr><tr class="passedodd"><td><a href="#m2">LoginTest</a></td><td rowspan="1">1677116603430</td><td rowspan="1">3302</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test on Firefox &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.OrangeHRMLoginTest</td><td><a href="#m3">endTest</a></td><td rowspan="1">1677116726180</td><td rowspan="1">1732</td></tr><tr><th colspan="4">Test on Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.MagentoAddItemtoCart</td><td><a href="#m4">MagentoAddItemsTest</a></td><td rowspan="1">1677116657733</td><td rowspan="1">33203</td></tr><tr class="failedodd"><td rowspan="1">tests.MagentoSortItems_Price</td><td><a href="#m5">MagentoSortbyPriceTest</a></td><td rowspan="1">1677116691021</td><td rowspan="1">5573</td></tr><tr><th colspan="4">Test on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.MagentoCreateAccountTest</td><td><a href="#m6">MagentocreateAccount</a></td><td rowspan="1">1677116646565</td><td rowspan="1">11164</td></tr><tr class="passedodd"><td rowspan="1">tests.MagentoLoginTest</td><td><a href="#m7">MagentoLogintest</a></td><td rowspan="1">1677116634043</td><td rowspan="1">12518</td></tr><tr class="passedeven"><td rowspan="1">tests.MagentoSearch</td><td><a href="#m8">MagentoSearchTest</a></td><td rowspan="1">1677116696787</td><td rowspan="1">29392</td></tr><tr class="passedodd"><td rowspan="2">tests.OrangeHRMLoginTest</td><td><a href="#m9">InvalidLoginTest</a></td><td rowspan="1">1677116624749</td><td rowspan="1">5770</td></tr><tr class="passedodd"><td><a href="#m10">LoginTest</a></td><td rowspan="1">1677116630520</td><td rowspan="1">3522</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test on Edge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.MagentoSearch</td><td><a href="#m11">MagentoSearchTest</a></td><td rowspan="1">1677116826986</td><td rowspan="1">17101</td></tr><tr><th colspan="4">Test on Edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.MagentoAddItemtoCart</td><td><a href="#m12">MagentoAddItemsTest</a></td><td rowspan="1">1677116767701</td><td rowspan="1">36946</td></tr><tr class="passedodd"><td rowspan="1">tests.MagentoCreateAccountTest</td><td><a href="#m13">MagentocreateAccount</a></td><td rowspan="1">1677116754615</td><td rowspan="1">13085</td></tr><tr class="passedeven"><td rowspan="1">tests.MagentoLoginTest</td><td><a href="#m14">MagentoLogintest</a></td><td rowspan="1">1677116741712</td><td rowspan="1">12902</td></tr><tr class="passedodd"><td rowspan="1">tests.MagentoSortItems_Price</td><td><a href="#m15">MagentoSortbyPriceTest</a></td><td rowspan="1">1677116804649</td><td rowspan="1">22336</td></tr><tr class="passedeven"><td rowspan="2">tests.OrangeHRMLoginTest</td><td><a href="#m16">InvalidLoginTest</a></td><td rowspan="1">1677116732674</td><td rowspan="1">5579</td></tr><tr class="passedeven"><td><a href="#m17">LoginTest</a></td><td rowspan="1">1677116738254</td><td rowspan="1">3457</td></tr></tbody>
 </table>
-<h2>Regression Tests</h2><h3 id="m0">tests.HomepageTest#Homepagetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Home Page - Magento eCommerce] but found [Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites]
-	at tests.HomepageTest.Homepagetest(HomepageTest.java:22)
+<h2>Tests on Chrome</h2><h3 id="m0">tests.MagentoLoginTest#MagentoLogintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.OrangeHRMLoginTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.OrangeHRMLoginTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test on Firefox</h2><h3 id="m3">tests.OrangeHRMLoginTest#endTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 5 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.MagentoAddItemtoCart#MagentoAddItemsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@option-id=&apos;175&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, findElement {using=xpath, value=//div[@option-id=&apos;175&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.MagentoAdditemstoCartPageObjects.set_size32(MagentoAdditemstoCartPageObjects.java:57)
+	at tests.MagentoAddItemtoCart.MagentoAddItemsTest(MagentoAddItemtoCart.java:39)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.MagentoSearch#MagentoSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bag</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [10] but found [4]
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.MagentoSortItems_Price#MagentoSortbyPriceTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, actions {actions=[org.openqa.selenium.interactions.Sequence@247bbfba]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at pages.MagentoSortItems_PricePageObjects.navigatetoTops(MagentoSortItems_PricePageObjects.java:45)
+	at tests.MagentoSortItems_Price.MagentoSortbyPriceTest(MagentoSortItems_Price.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.MagentoCreateAccountTest#MagentocreateAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.MagentoLoginTest#MagentoLogintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.MagentoSearch#MagentoSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Tunic</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.OrangeHRMLoginTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.OrangeHRMLoginTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test on Edge</h2><h3 id="m11">tests.MagentoSearch#MagentoSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>jacket</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [23] but found [0]
 	at tests.MagentoSearch.MagentoSearchTest(MagentoSearch.java:49)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.HomepageTest#verifyLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.MagentoAddItemtoCart#MagentoAddItemsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.MagentoCreateAccountTest#MagentocreateAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.MagentoLoginTest#MagentoLogintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">tests.MagentoSortItems_Price#MagentoSortbyPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">tests.OrangeHRMLoginTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">tests.OrangeHRMLoginTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.MagentoAddItemtoCart#MagentoAddItemsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.MagentoCreateAccountTest#MagentocreateAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.MagentoLoginTest#MagentoLogintest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">tests.MagentoSortItems_Price#MagentoSortbyPriceTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">tests.OrangeHRMLoginTest#InvalidLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>Admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">tests.OrangeHRMLoginTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

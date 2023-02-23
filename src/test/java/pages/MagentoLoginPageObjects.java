@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class MagentoLoginPageObjects {
 	
 	
-	WebDriver driver = null;
+	WebDriver driver ;
 	By link_SignIn = By.xpath("//a[contains(@href ,'login')]");
 	By txt_username = By.name("login[username]");
 	By txt_password = By.name("login[password]");

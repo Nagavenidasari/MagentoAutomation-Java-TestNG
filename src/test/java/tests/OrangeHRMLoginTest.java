@@ -14,12 +14,10 @@ public class OrangeHRMLoginTest extends TestBase{
 	@Test(groups= {"smoke","regression"})
 	public void LoginTest() throws Exception {
 		
-		
-		launchBrowser("chrome");
+		OrangeHRMLoginPageObjects hrm= new OrangeHRMLoginPageObjects(driver);
+		//launchBrowser("chrome");
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		log("Launched ORANGEHRM website");
-		Thread.sleep(2000);
-		OrangeHRMLoginPageObjects hrm= new OrangeHRMLoginPageObjects(driver);
 		log("Set username: Admin");
 		hrm.set_username("Admin");
 		log("Set username: admin123");
@@ -49,12 +47,12 @@ public class OrangeHRMLoginTest extends TestBase{
 	@Parameters({"username","password"})
 	public void InvalidLoginTest(String username,String password) throws Exception {
 		
-		
-		launchBrowser("chrome");
+		OrangeHRMLoginPageObjects hrm= new OrangeHRMLoginPageObjects(driver);
+		//launchBrowser("chrome");
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		log("Launched ORANGEHRM website");
 		Thread.sleep(2000);
-		OrangeHRMLoginPageObjects hrm= new OrangeHRMLoginPageObjects(driver);
+		
 		log("Set username: "+username);
 		hrm.set_username(username);
 		log("Set username: "+password);

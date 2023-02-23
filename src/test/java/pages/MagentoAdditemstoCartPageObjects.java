@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class MagentoAdditemstoCartPageObjects {
 	
-WebDriver driver = null;
+WebDriver driver ;
 	
 	public MagentoAdditemstoCartPageObjects(WebDriver driver) {
 		this.driver = driver;

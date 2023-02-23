@@ -13,7 +13,7 @@ public class HomepageTest extends TestBase {
 	public void Homepagetest() throws Exception {
 			
 		log("Launching Magento Website");
-		launchBrowser("CHROME");
+		//launchBrowser("CHROME");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		String acttitle=driver.getTitle();
@@ -28,7 +28,7 @@ public class HomepageTest extends TestBase {
 	@Test(groups= {"sanity","regression"})
 	public void verifyLogo() throws Exception {
 		
-		launchBrowser("CHROME");
+		//launchBrowser("CHROME");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		boolean img = driver.findElement(By.xpath("//a[@class='logo']")).isDisplayed();

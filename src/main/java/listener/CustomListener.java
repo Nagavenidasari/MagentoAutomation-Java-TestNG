@@ -7,6 +7,8 @@ import com.aventstack.extentreports.Status;
 
 public class CustomListener implements ITestListener{
 	
+	
+	
 	public void onTestFailure(ITestResult result) {
 		System.out.println("----Test Failed--------");
 		System.out.println("Failed Test Name - " +result.getName());
@@ -17,7 +19,6 @@ public class CustomListener implements ITestListener{
 		ExtentTest test = (ExtentTest)result.getAttribute("reporter");
 		System.out.println("Result " + result);
 		System.out.println("Result " +  result.getThrowable());
-		
 	//	test.log(Status.FAIL, result.getThrowable().getMessage());
 	}
 	
@@ -30,7 +31,7 @@ public class CustomListener implements ITestListener{
 	
 	public void onTestSkipped(ITestResult result) {
 		ExtentTest test = (ExtentTest)result.getAttribute("reporter");
-		test.log(Status.SKIP, "Test Passed - "+ result.getName());
+		test.log(Status.SKIP, "Test Skipped - "+ result.getName());
 	}
 
 	

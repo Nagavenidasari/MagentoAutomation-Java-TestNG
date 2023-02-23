@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class MagentoCreateAccountPageObjects {
 	
-	WebDriver driver = null;
+	WebDriver driver ;
 	
 	By lnk_txt = By.xpath("//a[contains(@href ,'create')]");
 	By txt_fname=By.id("firstname");
