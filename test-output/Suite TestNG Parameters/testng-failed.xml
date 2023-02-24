@@ -11,22 +11,91 @@
         <methods>
           <include name="setup"/>
           <include name="endTest"/>
-          <include name="MagentoSearchTest" invocation-numbers="0"/>
+          <include name="MagentoSearchTest"/>
           <include name="getResult"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- tests.MagentoSearch -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="item_search" value="Tunic"/>
+    <classes>
+      <class name="tests.MagentoSearch">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="MagentoSearchTest"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.MagentoSearch -->
+    </classes>
+  </test> <!-- Test2(failed) -->
   <test thread-count="5" name="Test on Chrome(failed)">
     <classes>
+      <class name="tests.MagentoLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="getResult"/>
+          <include name="MagentoLogintest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.MagentoLoginTest -->
+      <class name="tests.MagentoAddItemtoCart">
+        <methods>
+          <include name="setup"/>
+          <include name="MagentoAddItemsTest"/>
+          <include name="endTest"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.MagentoAddItemtoCart -->
+      <class name="tests.MagentoCreateAccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="MagentocreateAccount"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.MagentoCreateAccountTest -->
       <class name="tests.HomepageTest">
         <methods>
           <include name="setup"/>
           <include name="endTest"/>
           <include name="Homepagetest"/>
+          <include name="verifyLogo"/>
           <include name="getResult"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- tests.HomepageTest -->
+      <class name="tests.MagentoSortItems_Price">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="MagentoSortbyPriceTest"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.MagentoSortItems_Price -->
     </classes>
   </test> <!-- Test on Chrome(failed) -->
+  <test thread-count="5" name="OrangeHRM(failed)">
+    <parameter name="password" value="Admin"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="tests.OrangeHRMLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="InvalidLoginTest"/>
+          <include name="LoginTest"/>
+          <include name="endTest"/>
+          <include name="getResult"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tests.OrangeHRMLoginTest -->
+    </classes>
+  </test> <!-- OrangeHRM(failed) -->
 </suite> <!-- Failed suite [Suite TestNG Parameters] -->

@@ -39,11 +39,13 @@ public class TestBase {
 	public ExtentReports extent = null;
 	public ExtentTest logger = null;
 	public String browserName;
+	private int threadId;
 	
 	
 	@BeforeMethod(alwaysRun=true)
 	public void setup(ITestResult result)
 	{
+		threadId = (int) (Thread.currentThread().getId() % 100); //generate unique thread id
 		extent = ExtentManager.getReports();
 		logger = extent.createTest(result.getMethod().getMethodName().toUpperCase());
 		result.setAttribute("reporter", logger);
@@ -55,7 +57,7 @@ public class TestBase {
 	@Parameters("browserName")
 	@BeforeTest(alwaysRun=true)
 	public void launchBrowser(String browserName) throws Exception {
-		
+		System.out.println("Thread " + threadId + " running test");
 		System.out.println("Browser Name: "+browserName);
 		System.out.println("Thread ID: "+ Thread.currentThread().getId());
 		Thread.sleep(2000);

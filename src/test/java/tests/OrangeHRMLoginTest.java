@@ -20,7 +20,7 @@ public class OrangeHRMLoginTest extends TestBase{
 		log("Launched ORANGEHRM website");
 		log("Set username: Admin");
 		hrm.set_username("Admin");
-		log("Set username: admin123");
+		log("Set password: admin123");
 		hrm.set_password("admin123");
 		log("click login");
 		hrm.clk_submit();

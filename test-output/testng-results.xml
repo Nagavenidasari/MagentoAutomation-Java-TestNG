@@ -1,782 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="34" total="51" passed="14" failed="3" skipped="0">
+<testng-results ignored="2" total="10" passed="5" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-22T19:43:13 CST" name="Multibrowser Tests" finished-at="2023-02-22T19:47:24 CST" duration-ms="250882">
+  <suite started-at="2023-02-24T16:24:45 CST" name="DDSuite" finished-at="2023-02-24T16:27:41 CST" duration-ms="176150">
     <groups>
       <group name="regression">
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@576d5deb]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753]" name="MagentoAddItemsTest" class="tests.MagentoAddItemtoCart"/>
-        <method signature="MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32]" name="MagentocreateAccount" class="tests.MagentoCreateAccountTest"/>
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@117159c0]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@202b0582]" name="MagentoSearchTest" class="tests.MagentoSearch"/>
-        <method signature="MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a]" name="MagentoSortbyPriceTest" class="tests.MagentoSortItems_Price"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@74e28667]" name="MagentoAddItemsTest" class="tests.MagentoAddItemtoCart"/>
-        <method signature="MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1]" name="MagentocreateAccount" class="tests.MagentoCreateAccountTest"/>
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@74d1dc36]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@663c9e7a]" name="MagentoSearchTest" class="tests.MagentoSearch"/>
-        <method signature="MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be]" name="MagentoSortbyPriceTest" class="tests.MagentoSortItems_Price"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
+        <method signature="DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" name="MagentoSearchTest" class="DDtests.DDMagentoSearchTest"/>
       </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@576d5deb]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@117159c0]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@74d1dc36]" name="MagentoLogintest" class="tests.MagentoLoginTest"/>
-        <method signature="OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" name="InvalidLoginTest" class="tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" name="LoginTest" class="tests.OrangeHRMLoginTest"/>
-      </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@202b0582]" name="MagentoSearchTest" class="tests.MagentoSearch"/>
-        <method signature="MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@663c9e7a]" name="MagentoSearchTest" class="tests.MagentoSearch"/>
+        <method signature="DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" name="MagentoSearchTest" class="DDtests.DDMagentoSearchTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-02-22T19:43:13 CST" name="Tests on Chrome" finished-at="2023-02-22T19:43:40 CST" duration-ms="26526">
-      <class name="tests.OrangeHRMLoginTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:13 CST" name="launchBrowser" finished-at="2023-02-22T19:43:17 CST" duration-ms="4128" status="PASS">
+    <test started-at="2023-02-24T16:24:45 CST" name="LoginTest" finished-at="2023-02-24T16:27:41 CST" duration-ms="176150">
+      <class name="DDtests.DDMagentoSearchTest">
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:25:11 CST" name="MagentoSearchTest" data-provider="Searchtestdata" finished-at="2023-02-24T16:26:03 CST" duration-ms="51268" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:17 CST" name="setup" finished-at="2023-02-22T19:43:18 CST" duration-ms="173" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:18 CST" name="InvalidLoginTest" finished-at="2023-02-22T19:43:23 CST" duration-ms="5406" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLoginTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:23 CST" name="getResult" finished-at="2023-02-22T19:43:23 CST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InvalidLoginTest status=SUCCESS method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:23 CST" name="setup" finished-at="2023-02-22T19:43:23 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:23 CST" name="LoginTest" finished-at="2023-02-22T19:43:26 CST" duration-ms="3302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:26 CST" name="getResult" finished-at="2023-02-22T19:43:26 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.OrangeHRMLoginTest@942a29c]" started-at="2023-02-22T19:43:39 CST" name="endTest" finished-at="2023-02-22T19:43:40 CST" duration-ms="432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- tests.OrangeHRMLoginTest -->
-      <class name="tests.MagentoLoginTest">
-        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@576d5deb]" started-at="2023-02-22T19:43:26 CST" name="MagentoLogintest" finished-at="2023-02-22T19:43:39 CST" duration-ms="13045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoLogintest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@576d5deb]" started-at="2023-02-22T19:43:26 CST" name="setup" finished-at="2023-02-22T19:43:26 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@576d5deb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@576d5deb]" started-at="2023-02-22T19:43:39 CST" name="getResult" finished-at="2023-02-22T19:43:39 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@576d5deb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoLoginTest -->
-    </test> <!-- Tests on Chrome -->
-    <test started-at="2023-02-22T19:43:40 CST" name="Test on Firefox" finished-at="2023-02-22T19:45:27 CST" duration-ms="107688">
-      <class name="tests.OrangeHRMLoginTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:40 CST" name="launchBrowser" finished-at="2023-02-22T19:43:44 CST" duration-ms="4520" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:44 CST" name="setup" finished-at="2023-02-22T19:43:44 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:44 CST" name="InvalidLoginTest" finished-at="2023-02-22T19:43:50 CST" duration-ms="5770" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLoginTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:50 CST" name="getResult" finished-at="2023-02-22T19:43:50 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InvalidLoginTest status=SUCCESS method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:50 CST" name="LoginTest" finished-at="2023-02-22T19:43:54 CST" duration-ms="3522" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:50 CST" name="setup" finished-at="2023-02-22T19:43:50 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:43:54 CST" name="getResult" finished-at="2023-02-22T19:43:54 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.OrangeHRMLoginTest@54422e18]" started-at="2023-02-22T19:45:26 CST" name="endTest" finished-at="2023-02-22T19:45:27 CST" duration-ms="1732" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- tests.OrangeHRMLoginTest -->
-      <class name="tests.MagentoSortItems_Price">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a]" started-at="2023-02-22T19:44:51 CST" name="setup" finished-at="2023-02-22T19:44:51 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a]" started-at="2023-02-22T19:44:51 CST" name="MagentoSortbyPriceTest" finished-at="2023-02-22T19:44:56 CST" duration-ms="5573" status="FAIL">
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Origin element is not displayed
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, actions {actions=[org.openqa.selenium.interactions.Sequence@247bbfba]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, actions {actions=[org.openqa.selenium.interactions.Sequence@247bbfba]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at pages.MagentoSortItems_PricePageObjects.navigatetoTops(MagentoSortItems_PricePageObjects.java:45)
-at tests.MagentoSortItems_Price.MagentoSortbyPriceTest(MagentoSortItems_Price.java:28)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSortbyPriceTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a]" started-at="2023-02-22T19:44:56 CST" name="getResult" finished-at="2023-02-22T19:44:56 CST" duration-ms="191" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoSortbyPriceTest status=FAILURE method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@3b0fe47a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSortItems_Price -->
-      <class name="tests.MagentoCreateAccountTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32]" started-at="2023-02-22T19:44:06 CST" name="setup" finished-at="2023-02-22T19:44:06 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32]" started-at="2023-02-22T19:44:06 CST" name="MagentocreateAccount" finished-at="2023-02-22T19:44:17 CST" duration-ms="11164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentocreateAccount -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32]" started-at="2023-02-22T19:44:17 CST" name="getResult" finished-at="2023-02-22T19:44:17 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentocreateAccount status=SUCCESS method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@3e27ba32] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoCreateAccountTest -->
-      <class name="tests.MagentoAddItemtoCart">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753]" started-at="2023-02-22T19:44:17 CST" name="setup" finished-at="2023-02-22T19:44:17 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753]" started-at="2023-02-22T19:44:17 CST" name="MagentoAddItemsTest" finished-at="2023-02-22T19:44:50 CST" duration-ms="33203" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //div[@option-id='175']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, findElement {using=xpath, value=//div[@option-id='175']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@option-id='175']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [0d88019d-62c9-43a0-981a-75a75dec0d61, findElement {using=xpath, value=//div[@option-id='175']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:43142, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24928, moz:profile: C:\Users\nagav\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:43142/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0d88019d-62c9-43a0-981a-75a75dec0d61
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at pages.MagentoAdditemstoCartPageObjects.set_size32(MagentoAdditemstoCartPageObjects.java:57)
-at tests.MagentoAddItemtoCart.MagentoAddItemsTest(MagentoAddItemtoCart.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoAddItemsTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753]" started-at="2023-02-22T19:44:50 CST" name="getResult" finished-at="2023-02-22T19:44:51 CST" duration-ms="82" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoAddItemsTest status=FAILURE method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@7ef82753] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoAddItemtoCart -->
-      <class name="tests.MagentoLoginTest">
-        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@117159c0]" started-at="2023-02-22T19:43:54 CST" name="MagentoLogintest" finished-at="2023-02-22T19:44:06 CST" duration-ms="12518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoLogintest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@117159c0]" started-at="2023-02-22T19:43:54 CST" name="setup" finished-at="2023-02-22T19:43:54 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@117159c0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@117159c0]" started-at="2023-02-22T19:44:06 CST" name="getResult" finished-at="2023-02-22T19:44:06 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@117159c0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoLoginTest -->
-      <class name="tests.MagentoSearch">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@202b0582]" started-at="2023-02-22T19:44:56 CST" name="setup" finished-at="2023-02-22T19:44:56 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@202b0582] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@202b0582]" started-at="2023-02-22T19:44:56 CST" name="MagentoSearchTest" finished-at="2023-02-22T19:45:26 CST" duration-ms="29392" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tunic]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSearchTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@202b0582]" started-at="2023-02-22T19:45:26 CST" name="getResult" finished-at="2023-02-22T19:45:26 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoSearchTest status=SUCCESS method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@202b0582] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSearch -->
-    </test> <!-- Test on Firefox -->
-    <test started-at="2023-02-22T19:45:27 CST" name="Test on Edge" finished-at="2023-02-22T19:47:24 CST" duration-ms="116642">
-      <class name="tests.OrangeHRMLoginTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:27 CST" name="launchBrowser" finished-at="2023-02-22T19:45:32 CST" duration-ms="4741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:32 CST" name="setup" finished-at="2023-02-22T19:45:32 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:32 CST" name="InvalidLoginTest" finished-at="2023-02-22T19:45:38 CST" duration-ms="5579" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidLoginTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:38 CST" name="getResult" finished-at="2023-02-22T19:45:38 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=InvalidLoginTest status=SUCCESS method=OrangeHRMLoginTest.InvalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:38 CST" name="setup" finished-at="2023-02-22T19:45:38 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:38 CST" name="LoginTest" finished-at="2023-02-22T19:45:41 CST" duration-ms="3457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:45:41 CST" name="getResult" finished-at="2023-02-22T19:45:41 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=OrangeHRMLoginTest.LoginTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.OrangeHRMLoginTest@75d3a5e0]" started-at="2023-02-22T19:47:24 CST" name="endTest" finished-at="2023-02-22T19:47:24 CST" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- tests.OrangeHRMLoginTest -->
-      <class name="tests.MagentoSortItems_Price">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be]" started-at="2023-02-22T19:46:44 CST" name="setup" finished-at="2023-02-22T19:46:44 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be]" started-at="2023-02-22T19:46:44 CST" name="MagentoSortbyPriceTest" finished-at="2023-02-22T19:47:06 CST" duration-ms="22336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSortbyPriceTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be]" started-at="2023-02-22T19:47:06 CST" name="getResult" finished-at="2023-02-22T19:47:06 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoSortbyPriceTest status=SUCCESS method=MagentoSortItems_Price.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Price@1cf6d1be] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSortItems_Price -->
-      <class name="tests.MagentoCreateAccountTest">
-        <test-method signature="MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1]" started-at="2023-02-22T19:45:54 CST" name="MagentocreateAccount" finished-at="2023-02-22T19:46:07 CST" duration-ms="13085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentocreateAccount -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1]" started-at="2023-02-22T19:45:54 CST" name="setup" finished-at="2023-02-22T19:45:54 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1]" started-at="2023-02-22T19:46:07 CST" name="getResult" finished-at="2023-02-22T19:46:07 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentocreateAccount status=SUCCESS method=MagentoCreateAccountTest.MagentocreateAccount()[pri:0, instance:tests.MagentoCreateAccountTest@7161d8d1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoCreateAccountTest -->
-      <class name="tests.MagentoAddItemtoCart">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@74e28667]" started-at="2023-02-22T19:46:07 CST" name="setup" finished-at="2023-02-22T19:46:07 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@74e28667] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@74e28667]" started-at="2023-02-22T19:46:07 CST" name="MagentoAddItemsTest" finished-at="2023-02-22T19:46:44 CST" duration-ms="36946" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoAddItemsTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoAddItemtoCart@74e28667]" started-at="2023-02-22T19:46:44 CST" name="getResult" finished-at="2023-02-22T19:46:44 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoAddItemsTest status=SUCCESS method=MagentoAddItemtoCart.MagentoAddItemsTest()[pri:0, instance:tests.MagentoAddItemtoCart@74e28667] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoAddItemtoCart -->
-      <class name="tests.MagentoLoginTest">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@74d1dc36]" started-at="2023-02-22T19:45:41 CST" name="setup" finished-at="2023-02-22T19:45:41 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@74d1dc36] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@74d1dc36]" started-at="2023-02-22T19:45:41 CST" name="MagentoLogintest" finished-at="2023-02-22T19:45:54 CST" duration-ms="12902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoLogintest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoLoginTest@74d1dc36]" started-at="2023-02-22T19:45:54 CST" name="getResult" finished-at="2023-02-22T19:45:54 CST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=MagentoLogintest status=SUCCESS method=MagentoLoginTest.MagentoLogintest()[pri:0, instance:tests.MagentoLoginTest@74d1dc36] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoLoginTest -->
-      <class name="tests.MagentoSearch">
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@663c9e7a]" started-at="2023-02-22T19:47:06 CST" name="setup" finished-at="2023-02-22T19:47:06 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@663c9e7a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@663c9e7a]" started-at="2023-02-22T19:47:06 CST" name="MagentoSearchTest" finished-at="2023-02-22T19:47:24 CST" duration-ms="17101" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jacket]]>
+                <![CDATA[Bag]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [23] but found [0]]]>
+              <![CDATA[expected [10] but found [4]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [23] but found [0]
+              <![CDATA[java.lang.AssertionError: expected [10] but found [4]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:907)
 at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.MagentoSearch.MagentoSearchTest(MagentoSearch.java:49)
+at DDtests.DDMagentoSearchTest.MagentoSearchTest(DDMagentoSearchTest.java:57)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -811,18 +68,385 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MagentoSearchTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSearch@663c9e7a]" started-at="2023-02-22T19:47:24 CST" name="getResult" finished-at="2023-02-22T19:47:24 CST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:25:11 CST" name="setup" finished-at="2023-02-24T16:25:11 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentoSearchTest status=FAILURE method=MagentoSearch.MagentoSearchTest(java.lang.String)[pri:0, instance:tests.MagentoSearch@663c9e7a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:03 CST" name="getResult" finished-at="2023-02-24T16:26:03 CST" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoSearchTest status=FAILURE method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSearch -->
-    </test> <!-- Test on Edge -->
-  </suite> <!-- Multibrowser Tests -->
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:03 CST" name="MagentoSearchTest" data-provider="Searchtestdata" finished-at="2023-02-24T16:26:33 CST" duration-ms="30459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSearchTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:03 CST" name="setup" finished-at="2023-02-24T16:26:03 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:33 CST" name="getResult" finished-at="2023-02-24T16:26:33 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoSearchTest status=SUCCESS method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:33 CST" name="MagentoSearchTest" data-provider="Searchtestdata" finished-at="2023-02-24T16:26:49 CST" duration-ms="16087" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jacket]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [23] but found [17]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [23] but found [17]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at DDtests.DDMagentoSearchTest.MagentoSearchTest(DDMagentoSearchTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSearchTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:33 CST" name="setup" finished-at="2023-02-24T16:26:33 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:49 CST" name="getResult" finished-at="2023-02-24T16:26:50 CST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoSearchTest status=FAILURE method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:50 CST" name="setup" finished-at="2023-02-24T16:26:50 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:26:50 CST" name="MagentoSearchTest" data-provider="Searchtestdata" finished-at="2023-02-24T16:27:40 CST" duration-ms="50602" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[belt]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at DDtests.DDMagentoSearchTest.MagentoSearchTest(DDMagentoSearchTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MagentoSearchTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea]" started-at="2023-02-24T16:27:40 CST" name="getResult" finished-at="2023-02-24T16:27:40 CST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MagentoSearchTest status=FAILURE method=DDMagentoSearchTest.MagentoSearchTest(java.lang.String)[pri:0, instance:DDtests.DDMagentoSearchTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- DDtests.DDMagentoSearchTest -->
+      <class name="DDtests.DDOrangeLoginTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:24:45 CST" name="launchBrowser" finished-at="2023-02-24T16:24:48 CST" duration-ms="3799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:24:49 CST" name="setup" finished-at="2023-02-24T16:24:49 CST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:24:49 CST" name="InvalidLogintest" data-provider="InvalidLogintestdata" finished-at="2023-02-24T16:25:00 CST" duration-ms="10582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testadmin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogintest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:00 CST" name="getResult" finished-at="2023-02-24T16:25:00 CST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogintest status=SUCCESS method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:00 CST" name="setup" finished-at="2023-02-24T16:25:00 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:00 CST" name="InvalidLogintest" data-provider="InvalidLogintestdata" finished-at="2023-02-24T16:25:03 CST" duration-ms="3757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin7865]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogintest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:03 CST" name="setup" finished-at="2023-02-24T16:25:03 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:03 CST" name="getResult" finished-at="2023-02-24T16:25:03 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogintest status=SUCCESS method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:03 CST" name="InvalidLogintest" data-provider="InvalidLogintestdata" finished-at="2023-02-24T16:25:07 CST" duration-ms="3781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogintest -->
+        <test-method signature="InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:07 CST" name="InvalidLogintest" data-provider="InvalidLogintestdata" finished-at="2023-02-24T16:25:11 CST" duration-ms="4230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogintest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:07 CST" name="setup" finished-at="2023-02-24T16:25:07 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:07 CST" name="getResult" finished-at="2023-02-24T16:25:07 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogintest status=SUCCESS method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:25:11 CST" name="getResult" finished-at="2023-02-24T16:25:11 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogintest status=SUCCESS method=DDOrangeLoginTest.InvalidLogintest(java.lang.String,java.lang.String)[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:DDtests.DDOrangeLoginTest@5a45133e]" started-at="2023-02-24T16:27:40 CST" name="endTest" finished-at="2023-02-24T16:27:41 CST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- DDtests.DDOrangeLoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- DDSuite -->
 </testng-results>

@@ -1,6 +1,7 @@
 package pages;
 
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +10,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class MagentoSearchPageObjects {
@@ -31,7 +34,7 @@ public class MagentoSearchPageObjects {
 	By msg_notice = By.xpath("//*[@class='message notice']");
 	//By sibling_page = By.xpath("//div/ul/li[@class='item current']//following-sibling::li[1]/a");
 	By sibling_page = By.xpath("//*[@id='maincontent']/div[3]/div[1]/div[2]/div[3]/div[2]/ul/li[@class='item current']//following-sibling::li[1]/a");
-	
+	By notice_message = By.xpath("//div[@class='message notice']");
 	
 	
 	
@@ -57,56 +60,120 @@ public class MagentoSearchPageObjects {
 		
 		ArrayList<String> all_elements_text= new ArrayList<String>();
 		int total_pages = pages();
-		//int total_items = Integer.parseInt(total_itemcount());
 		List<WebElement> myList ;
-		//boolean pages_footer = isElementDisplayed();
-		//System.out.println(pages_footer);
 		
 		//only current page is available 
+		
 		if(total_pages == 0) {
 			
-			
-			myList = driver.findElements(list_sortitems);
-			for(int i=0; i< myList.size(); i++){
+			if(isElementVisible())
+			{
+				all_elements_text = null;
+				
+			}
+			else {
+				myList = driver.findElements(list_sortitems);
+				for(int i=0; i< myList.size(); i++){
 
-	        //loading text of each element in to array all_elements_text
+					//loading text of each element in to array all_elements_text
+				all_elements_text.add(myList.get(i).getText());
+				
+			}
+		}return all_elements_text;
+			
+			
+			
+		}
+		
+		/*else if(total_pages == 0) {
+			
+				myList = driver.findElements(list_sortitems);
+				for(int i=0; i< myList.size(); i++){
+
+					//loading text of each element in to array all_elements_text
 				all_elements_text.add(myList.get(i).getText());
 	       
-		}return all_elements_text;
-			// navigating through multiple pages and collecting the items.
-		}else {
+			}return all_elements_text;
+		}*/
+		else {
 			
-			myList = driver.findElements(list_sortitems);
-			for(int i=0; i< myList.size(); i++){
+				myList = driver.findElements(list_sortitems);
+				for(int i=0; i< myList.size(); i++){
 
 		        //loading text of each element in to array all_elements_text
 					all_elements_text.add(myList.get(i).getText());   
-			}
+				}
 		
-			for(int j=1 ;j<=total_pages-1;j++) {
+				for(int j=1 ;j<=total_pages-1;j++) {
 				
-				JavascriptExecutor Js1 = (JavascriptExecutor) driver;
-				Js1.executeScript("window.scrollBy(0,1500)");  
-				Thread.sleep(2000);
-				driver.findElement(sibling_page).click(); //click on immediate nextpage.
-				Thread.sleep(2000);
-				myList=driver.findElements(list_sortitems);
-				for(int i=0; i< myList.size(); i++){
-	
+					JavascriptExecutor Js1 = (JavascriptExecutor) driver;
+					Js1.executeScript("window.scrollBy(0,1500)");  
+					Thread.sleep(2000);
+					driver.findElement(sibling_page).click(); //click on immediate nextpage.
+					Thread.sleep(2000);
+					myList=driver.findElements(list_sortitems);
+					for(int i=0; i< myList.size(); i++){
+		
 				        //loading text of each element in to array all_elements_text
 				       all_elements_text.add(myList.get(i).getText());
 	
 					//}				
+					}
 				}
-			}
-		}
-		return all_elements_text;
+		}return all_elements_text;
+			
+	}		
+		
+	
+	
+		/*if(total_pages == 0) {
+				
+				
+				myList = driver.findElements(list_sortitems);
+				for(int i=0; i< myList.size(); i++){
+	
+		        //loading text of each element in to array all_elements_text
+					all_elements_text.add(myList.get(i).getText());
+		       
+				}return all_elements_text;
+				}
+				// navigating through multiple pages and collecting the items.
+				else {
+				
+				myList = driver.findElements(list_sortitems);
+				for(int i=0; i< myList.size(); i++){
+	
+			        //loading text of each element in to array all_elements_text
+						all_elements_text.add(myList.get(i).getText());   
+				}
+			
+				for(int j=1 ;j<=total_pages-1;j++) {
+					
+					JavascriptExecutor Js1 = (JavascriptExecutor) driver;
+					Js1.executeScript("window.scrollBy(0,1500)");  
+					Thread.sleep(2000);
+					driver.findElement(sibling_page).click(); //click on immediate nextpage.
+					Thread.sleep(2000);
+					myList=driver.findElements(list_sortitems);
+					for(int i=0; i< myList.size(); i++){
+		
+					        //loading text of each element in to array all_elements_text
+					       all_elements_text.add(myList.get(i).getText());
+		
+						//}				
+					}
+				}
+			}return all_elements_text;*/
+	
 		
 		
-	}
+		
+	
 	
 	// get the number of pages in the webpage
 	public int pages() {
+		
+		
 		
 		List<WebElement> myList1 = driver.findElements(pages); // get all the pagenumber counts
 		int pages_count = myList1.size();
@@ -131,6 +198,17 @@ public class MagentoSearchPageObjects {
 			
 			return element.isDisplayed();
 		}catch(Exception ignored) {return false;}
-	}								
+	}
+	
+	
+	public boolean isElementVisible() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		try {
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='message notice']")));
+		}catch(Exception e) {
+			return false;
+		}
+		return true;
+	}
 	
 }

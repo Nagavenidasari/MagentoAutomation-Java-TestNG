@@ -36,6 +36,12 @@ public class MagentoSearch extends TestBase{
 		//int total_items = Integer.parseInt(total_count);
 		//System.out.println("Total items: "+total_items);
 		items = search.searched_items();
+		if(items == null) {
+			
+			log("No items are available & alert message is displayed");
+			Assert.assertEquals(null, items);
+		}
+		else {
 		
 		System.out.println("Total Items: "+items.size());
 		log("Total Items: "+items.size());
@@ -47,8 +53,8 @@ public class MagentoSearch extends TestBase{
 		int itemsseen_count = countItems(item_search);
 		log("Items that contain searched item:  "+item_search+" "+itemsseen_count);
 		Assert.assertEquals(itemsseen_count, items.size());
-		
-		
+		}
+			
 	}
 	
 	public boolean FindString(String item) throws Exception

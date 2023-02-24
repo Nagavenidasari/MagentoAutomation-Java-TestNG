@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DDSuite">
+	<listeners>
+			<listener class-name="listener.CustomListener"></listener>
+	</listeners>
+	
+  <test name="LoginTest">
+  <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="DDtests.DDOrangeLoginTest"/>
+      <class name ="DDtests.DDMagentoSearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
