@@ -21,8 +21,6 @@ public class MagentoSearch extends TestBase{
 	@Parameters({"item_search"})
 	public void MagentoSearchTest(String item_search) throws Exception {
 		
-		//item_search = "Bag";
-		//launchBrowser("chrome");
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);
@@ -32,9 +30,6 @@ public class MagentoSearch extends TestBase{
 		Thread.sleep(3000);
 		search.clk_submit();
 		Thread.sleep(3000);
-		//String total_count = search.total_itemcount();
-		//int total_items = Integer.parseInt(total_count);
-		//System.out.println("Total items: "+total_items);
 		items = search.searched_items();
 		if(items == null) {
 			

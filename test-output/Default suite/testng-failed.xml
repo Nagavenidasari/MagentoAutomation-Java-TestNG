@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DDtests.DDOrangeLoginTest">
+      <class name="tests.TechlisticStaticTableDataTest">
         <methods>
           <include name="setup"/>
-          <include name="test1"/>
           <include name="endTest"/>
+          <include name="StaticTableData"/>
           <include name="getResult"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- DDtests.DDOrangeLoginTest -->
+      </class> <!-- tests.TechlisticStaticTableDataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

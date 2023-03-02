@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-24T17:11:58 CST" name="Suite" finished-at="2023-02-24T17:12:23 CST" duration-ms="24840">
+  <suite started-at="2023-03-02T14:13:41 CST" name="Suite" finished-at="2023-03-02T14:16:04 CST" duration-ms="143491">
     <groups>
-      <group name="regression">
-        <method signature="MagentoSortItems_Name.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" name="MagentoSortbyPriceTest" class="tests.MagentoSortItems_Name"/>
-      </group> <!-- regression -->
     </groups>
-    <test started-at="2023-02-24T17:11:58 CST" name="SortTest" finished-at="2023-02-24T17:12:23 CST" duration-ms="24840">
-      <class name="tests.MagentoSortItems_Name">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" started-at="2023-02-24T17:11:58 CST" name="launchBrowser" finished-at="2023-02-24T17:12:02 CST" duration-ms="3862" status="PASS">
+    <test started-at="2023-03-02T14:13:41 CST" name="Test1" finished-at="2023-03-02T14:14:09 CST" duration-ms="27664">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:41 CST" name="launchBrowser" finished-at="2023-03-02T14:13:45 CST" duration-ms="4325" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,37 +18,371 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" started-at="2023-02-24T17:12:02 CST" name="setup" finished-at="2023-02-24T17:12:02 CST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:45 CST" name="setup" finished-at="2023-03-02T14:13:46 CST" duration-ms="212" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSortItems_Name.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Name@d9345cd] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" started-at="2023-02-24T17:12:02 CST" name="MagentoSortbyPriceTest" finished-at="2023-02-24T17:12:22 CST" duration-ms="20330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MagentoSortbyPriceTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" started-at="2023-02-24T17:12:22 CST" name="getResult" finished-at="2023-02-24T17:12:22 CST" duration-ms="1" status="PASS">
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:46 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:08 CST" duration-ms="22634" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=MagentoSortbyPriceTest status=SUCCESS method=MagentoSortItems_Name.MagentoSortbyPriceTest()[pri:0, instance:tests.MagentoSortItems_Name@d9345cd] output={null}]]]>
+                <![CDATA[xsmall]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:14:08 CST" name="getResult" finished-at="2023-03-02T14:14:08 CST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSortItems_Name@d9345cd]" started-at="2023-02-24T17:12:22 CST" name="endTest" finished-at="2023-02-24T17:12:23 CST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:14:08 CST" name="endTest" finished-at="2023-03-02T14:14:09 CST" duration-ms="459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- tests.MagentoSortItems_Name -->
-    </test> <!-- SortTest -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-03-02T14:14:09 CST" name="Test2" finished-at="2023-03-02T14:14:34 CST" duration-ms="25288">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:09 CST" name="launchBrowser" finished-at="2023-03-02T14:14:11 CST" duration-ms="2789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:11 CST" name="setup" finished-at="2023-03-02T14:14:11 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:11 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:34 CST" duration-ms="22272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[small]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:34 CST" name="endTest" finished-at="2023-03-02T14:14:34 CST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:34 CST" name="getResult" finished-at="2023-03-02T14:14:34 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-03-02T14:14:34 CST" name="Test3" finished-at="2023-03-02T14:14:59 CST" duration-ms="25124">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:34 CST" name="launchBrowser" finished-at="2023-03-02T14:14:37 CST" duration-ms="2772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:37 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:59 CST" duration-ms="22121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[medium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:37 CST" name="setup" finished-at="2023-03-02T14:14:37 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:59 CST" name="getResult" finished-at="2023-03-02T14:14:59 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:59 CST" name="endTest" finished-at="2023-03-02T14:14:59 CST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-03-02T14:14:59 CST" name="Test4" finished-at="2023-03-02T14:15:25 CST" duration-ms="25660">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:14:59 CST" name="launchBrowser" finished-at="2023-03-02T14:15:02 CST" duration-ms="2762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:02 CST" name="setup" finished-at="2023-03-02T14:15:02 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:02 CST" name="SelectSizeTest" finished-at="2023-03-02T14:15:24 CST" duration-ms="22665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[large]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:24 CST" name="endTest" finished-at="2023-03-02T14:15:25 CST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:24 CST" name="getResult" finished-at="2023-03-02T14:15:24 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-03-02T14:15:25 CST" name="Test5" finished-at="2023-03-02T14:15:50 CST" duration-ms="25392">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:25 CST" name="launchBrowser" finished-at="2023-03-02T14:15:27 CST" duration-ms="2725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:27 CST" name="SelectSizeTest" finished-at="2023-03-02T14:15:50 CST" duration-ms="22435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xlarge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:27 CST" name="setup" finished-at="2023-03-02T14:15:27 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:50 CST" name="endTest" finished-at="2023-03-02T14:15:50 CST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:50 CST" name="getResult" finished-at="2023-03-02T14:15:50 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test5 -->
+    <test started-at="2023-03-02T14:15:50 CST" name="Test6" finished-at="2023-03-02T14:16:04 CST" duration-ms="14338">
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:50 CST" name="launchBrowser" finished-at="2023-03-02T14:15:53 CST" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:53 CST" name="setup" finished-at="2023-03-02T14:15:53 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:53 CST" name="SelectSizeTest" finished-at="2023-03-02T14:16:04 CST" duration-ms="10914" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html has no size and location
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0664e72419cce794cc0e8c8542df1d28, actions {actions=[org.openqa.selenium.interactions.Sequence@34beadce]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0664e72419cce794cc0e8c8542df1d28]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html has no size and location
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0664e72419cce794cc0e8c8542df1d28, actions {actions=[org.openqa.selenium.interactions.Sequence@34beadce]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0664e72419cce794cc0e8c8542df1d28
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at pages.MagentoSortItems_PricePageObjects.navigatetoBrastees(MagentoSortItems_PricePageObjects.java:63)
+at tests.MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(MagentoSelectSizeShoppingoptionsTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSizeTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:16:04 CST" name="getResult" finished-at="2023-03-02T14:16:04 CST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectSizeTest status=FAILURE method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:16:04 CST" name="endTest" finished-at="2023-03-02T14:16:04 CST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+    </test> <!-- Test6 -->
   </suite> <!-- Suite -->
 </testng-results>

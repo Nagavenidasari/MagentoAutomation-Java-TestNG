@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+			<listener class-name="listener.CustomListener"></listener>
+	</listeners>
+  <test name="Test1">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="xsmall"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="small"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="medium"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test4">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="large"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test5">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="xlarge"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test6">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="size_search" value="abcd"></parameter>	
+    <classes>
+      <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

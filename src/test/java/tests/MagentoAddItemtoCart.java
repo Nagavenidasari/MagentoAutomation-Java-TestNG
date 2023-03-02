@@ -30,6 +30,8 @@ public class MagentoAddItemtoCart extends TestBase{
 		additem.add_tocart();
 		log("Bag added in the cart");
 		
+		
+		
 		Thread.sleep(2000);
 		searchitem.search("Pant");
 		Thread.sleep(1000);

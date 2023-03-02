@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,17 +51,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\nagav\eclipse-workspace\AutomationStepByStep\MagentoSelenium\sorttestng.xml</span>
+                    <span>C:\Users\nagav\eclipse-workspace\AutomationStepByStep\MagentoSelenium\sizetestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">6 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(abcd)">SelectSizeTest(abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +118,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSortItems_Name" class="method navigator-link" hash-for-method="MagentoSortbyPriceTest">MagentoSortbyPriceTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(xsmall)">SelectSizeTest(xsmall)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(small)">SelectSizeTest(small)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(medium)">SelectSizeTest(medium)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(large)">SelectSizeTest(large)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.MagentoSelectSizeShoppingoptionsTest" class="method navigator-link" hash-for-method="SelectSizeTest(xlarge)">SelectSizeTest(xlarge)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -119,17 +153,88 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.MagentoSortItems_Name</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.MagentoSelectSizeShoppingoptionsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="MagentoSortbyPriceTest">
-                  </a> <!-- MagentoSortbyPriceTest -->
-                  <span class="method-name">MagentoSortbyPriceTest</span>
+                  <a name="SelectSizeTest(abcd)">
+                  </a> <!-- SelectSizeTest(abcd) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(abcd)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html has no size and location
+  (Session info: chrome=110.0.5481.178)
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0664e72419cce794cc0e8c8542df1d28, actions {actions=[org.openqa.selenium.interactions.Sequence@34beadce]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0664e72419cce794cc0e8c8542df1d28
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at pages.MagentoSortItems_PricePageObjects.navigatetoBrastees(MagentoSortItems_PricePageObjects.java:63)
+	at tests.MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(MagentoSelectSizeShoppingoptionsTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MagentoSelectSizeShoppingoptionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSizeTest(xsmall)">
+                  </a> <!-- SelectSizeTest(xsmall) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(xsmall)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSizeTest(small)">
+                  </a> <!-- SelectSizeTest(small) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(small)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSizeTest(medium)">
+                  </a> <!-- SelectSizeTest(medium) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(medium)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSizeTest(large)">
+                  </a> <!-- SelectSizeTest(large) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(large)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSizeTest(xlarge)">
+                  </a> <!-- SelectSizeTest(xlarge) -->
+                  <span class="method-name">SelectSizeTest</span>
+                  <span class="parameters">(xlarge)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,19 +242,58 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nagav\eclipse-workspace\AutomationStepByStep\MagentoSelenium\sorttestng.xml</span>
+            <span class="header-content">C:\Users\nagav\eclipse-workspace\AutomationStepByStep\MagentoSelenium\sizetestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;SortTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;xsmall&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.MagentoSortItems_Name&quot;/&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SortTest --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;small&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;medium&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;large&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;xlarge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test6&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;size_search&quot; value=&quot;abcd&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MagentoSelectSizeShoppingoptionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test6 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +305,22 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SortTest (1 class)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test6 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,14 +330,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">MagentoSortbyPriceTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -195,16 +346,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'MagentoSortbyPriceTest')
-data.setCell(0, 2, 'tests.MagentoSortItems_Name')
-data.setCell(0, 3, 20330);
+data.setCell(0, 1, 'SelectSizeTest')
+data.setCell(0, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(0, 3, 22665);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SelectSizeTest')
+data.setCell(1, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(1, 3, 22634);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SelectSizeTest')
+data.setCell(2, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(2, 3, 22435);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SelectSizeTest')
+data.setCell(3, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(3, 3, 22272);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SelectSizeTest')
+data.setCell(4, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(4, 3, 22121);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SelectSizeTest')
+data.setCell(5, 2, 'tests.MagentoSelectSizeShoppingoptionsTest')
+data.setCell(5, 3, 10914);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -230,26 +401,128 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.MagentoSortItems_Name</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.MagentoSelectSizeShoppingoptionsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launchBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSortItems_Name.MagentoSortbyPriceTest()[pri:0, ...)</span>
-                <span class="method-start">3880 ms</span>
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">4349 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">MagentoSortbyPriceTest</span>
-                <span class="method-start">4070 ms</span>
+                <span class="method-name">SelectSizeTest(xsmall)</span>
+                <span class="method-start">4561 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=MagentoSortbyPriceTest status=SUCCESS method=MagentoSortItems_Name.MagentoSortbyPri...)</span>
-                <span class="method-start">24402 ms</span>
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">27197 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">24404 ms</span>
+                <span class="method-start">27202 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">27667 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">30456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectSizeTest(small)</span>
+                <span class="method-start">30456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">52729 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">52729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">52960 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SelectSizeTest(medium)</span>
+                <span class="method-start">55732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">55732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">77854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">77854 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">78092 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">80854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectSizeTest(large)</span>
+                <span class="method-start">80855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">103521 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">103521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">103755 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">106480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectSizeTest(xlarge)</span>
+                <span class="method-start">106480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">128916 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">128916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">129150 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(ja...)</span>
+                <span class="method-start">131911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SelectSizeTest(abcd)</span>
+                <span class="method-start">131911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=SelectSizeTest status=FAILURE method=MagentoSelectSizeShoppingoptionsTest.SelectSiz...)</span>
+                <span class="method-start">142827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">143257 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
