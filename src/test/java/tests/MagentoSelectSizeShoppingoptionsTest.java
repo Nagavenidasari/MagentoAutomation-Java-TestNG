@@ -1,11 +1,13 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.MagentoSearchPageObjects;
 import pages.MagentoSortItems_PricePageObjects;
+import pages.MagentoStoreMenuNavPageObjects;
 import pages.SelectingSizefromShoppingOptionsPageObjects;
 import testbase.TestBase;
 
@@ -15,23 +17,18 @@ public class MagentoSelectSizeShoppingoptionsTest extends TestBase {
 	
 	
 	@Test
-	@Parameters({"size_search"})
-	public void SelectSizeTest(String size_search) throws Exception {
+	@Parameters({"size_search","item1","item2","item3","exp_title"})
+	public void SelectSizeTest(String size_search,String item1,@Optional String item2, @Optional String item3,String exp_title) throws Exception {
 				
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);
 		SelectingSizefromShoppingOptionsPageObjects size= new SelectingSizefromShoppingOptionsPageObjects(driver);
-		MagentoSortItems_PricePageObjects navigate = new MagentoSortItems_PricePageObjects(driver);
-		navigate.navigatetowomen();
-		log("Navigating to Women");
-		Thread.sleep(2000);
-		navigate.navigatetoTops();
-		log("Navigating to Tops");
-		Thread.sleep(2000);;
-		navigate.navigatetoBrastees();
-		log("Navigating to Bras and Tees");
-		Thread.sleep(2000);
+		MagentoStoreMenuNavPageObjects navigate = new MagentoStoreMenuNavPageObjects(driver);
+		String act_title = navigate.PerformNavigation(item1,item2,item3);
+		log("ExptectedTitle : "+exp_title);
+		log("ActualTitle : "+act_title);
+		Assert.assertEquals(act_title, exp_title);
 		log("Slecting the size options");
 		size.clkSizeOptions();
 		Thread.sleep(2000);

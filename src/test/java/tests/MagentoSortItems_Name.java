@@ -5,10 +5,13 @@ import java.util.Collections;
 import java.util.List;
 
 import org.testng.Assert;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.MagentoSortItems_NamePageObjects;
 import pages.MagentoSortItems_PricePageObjects;
+import pages.MagentoStoreMenuNavPageObjects;
 import testbase.TestBase;
 
 public class MagentoSortItems_Name extends TestBase{
@@ -17,23 +20,18 @@ public class MagentoSortItems_Name extends TestBase{
 	
 	
 	@Test(groups= {"regression"})
-	public void MagentoSortbyPriceTest() throws Exception {
+	@Parameters({"item1","item2","item3","exp_title"})
+	public void MagentoSortbyNameTest(String item1,@Optional String item2, @Optional String item3,String exp_title) throws Exception {
 		
 		driver.get("https://magento.softwaretestingboard.com/");
 		log("Launched the website");
 		Thread.sleep(3000);
-		MagentoSortItems_PricePageObjects byPrice = new MagentoSortItems_PricePageObjects(driver);
+		MagentoStoreMenuNavPageObjects navigate = new MagentoStoreMenuNavPageObjects(driver);
 		MagentoSortItems_NamePageObjects byName = new MagentoSortItems_NamePageObjects(driver);
-		byPrice.navigatetowomen();
-		log("Navigating to Women");
-		Thread.sleep(2000);
-		byPrice.navigatetoTops();
-		log("Navigating to Tops");
-		Thread.sleep(2000);
-		//byPrice.navigatetoJackets();
-		byPrice.navigatetoBrastees();
-		log("Navigating to Bras and Tees and clicking");
-		Thread.sleep(2000);
+		String act_title = navigate.PerformNavigation(item1,item2,item3);
+		log("ExptectedTitle : "+exp_title);
+		log("ActualTitle : "+act_title);
+		Assert.assertEquals(act_title, exp_title);
 		
 		byName.drpdwn_name();
 		name_list = byName.items_byName();
@@ -41,7 +39,6 @@ public class MagentoSortItems_Name extends TestBase{
 		
 		// checking whether the price list is sorted
 		is_sorted(name_list);
-		
 		
 	}
 	
@@ -59,7 +56,7 @@ public class MagentoSortItems_Name extends TestBase{
 		
 		Collections.sort(temp_namelist);
 		
-		log("SORTED NAMELIST");
+		log("SORTED NAMELIST:");
 		for ( String str1:temp_namelist) {
 			log(str1);
 		}

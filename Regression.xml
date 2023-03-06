@@ -10,6 +10,10 @@
 	<parameter name="username" value="Admin"></parameter>
 	<parameter name="password" value="Admin"></parameter>
 	<parameter name="item_search" value="Bag"></parameter>
+	<parameter name="item1" value="women"></parameter>
+  	<parameter name="item2" value="wtops"></parameter>
+  	<parameter name="item3" value="wtees"></parameter>	
+  	<parameter name="exp_title" value="Tees"></parameter>	
 		<groups>
 			 <run>
 				 <include name="regression"></include>
@@ -19,6 +23,7 @@
 		 <classes>
 	  		<class name="tests.OrangeHRMLoginTest"></class>
 	  		<class name="tests.MagentoLoginTest"/>
+	  		<class name="tests.MagentoStoreNavigationTest"/>
       		<class name="tests.MagentoCreateAccountTest"></class> 
       		<class name="tests.MagentoAddItemtoCart"></class>
       		<class name="tests.MagentoSortItems_Price"></class>

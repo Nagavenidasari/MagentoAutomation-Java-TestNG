@@ -7,6 +7,10 @@
   <test name="Test1">
   <parameter name="browserName" value="chrome"></parameter>	
   <parameter name="size_search" value="xsmall"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>	
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>
@@ -14,6 +18,10 @@
   <test name="Test2">
   <parameter name="browserName" value="chrome"></parameter>	
   <parameter name="size_search" value="small"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>	
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>
@@ -21,6 +29,10 @@
   <test name="Test3">
   <parameter name="browserName" value="chrome"></parameter>	
   <parameter name="size_search" value="medium"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>	
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>
@@ -28,6 +40,10 @@
   <test name="Test4">
   <parameter name="browserName" value="chrome"></parameter>	
   <parameter name="size_search" value="large"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>	
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>
@@ -35,13 +51,21 @@
   <test name="Test5">
   <parameter name="browserName" value="chrome"></parameter>	
   <parameter name="size_search" value="xlarge"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>	
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test6">
   <parameter name="browserName" value="chrome"></parameter>	
-  <parameter name="size_search" value="abcd"></parameter>	
+  <parameter name="size_search" value="abcd"></parameter>
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wtees"></parameter>	
+  <parameter name="exp_title" value="Tees"></parameter>		
     <classes>
       <class name="tests.MagentoSelectSizeShoppingoptionsTest"/>
     </classes>

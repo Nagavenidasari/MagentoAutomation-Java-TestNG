@@ -12,7 +12,7 @@ import testbase.TestBase;
 
 public class MagentoStoreNavigationTest extends TestBase{
 	
-	@Test
+	@Test(groups={"regression"})
 	@Parameters({"item1","item2","item3","exp_title"})
 	public void NavigationTest(String item1,@Optional String item2, @Optional String item3,String exp_title) throws Exception {
 		

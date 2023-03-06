@@ -58,8 +58,7 @@ public class MagentoSortItems_NamePageObjects {
 			
 			myList = driver.findElements(txt_name);
 			for(int i=0; i< myList.size(); i++){
-
-		        //loading text of each element in to array all_elements_text
+				//loading text of each element in to array all_elements_text
 				items_Pricelist.add(myList.get(i).getText());   
 				}
 		
@@ -71,7 +70,6 @@ public class MagentoSortItems_NamePageObjects {
 				Thread.sleep(2000);
 				myList=driver.findElements(txt_name);
 				for(int i=0; i< myList.size(); i++){
-	
 				        //loading text of each element in to array all_elements_text
 					items_Pricelist.add(myList.get(i).getText());
 	
@@ -91,9 +89,6 @@ public class MagentoSortItems_NamePageObjects {
 		ArrayList<String> all_elements_text1= new ArrayList<String>();
 		
 		for(int i=0; i< myList1.size(); i++){
-			
-			//int temp = Integer.parseInt(myList1.get(i).getText());
-
 	        //loading text of each element in to array all_elements_text
 	        all_elements_text1.add(myList1.get(i).getText());
 	        System.out.println("Page numbers : "+all_elements_text1.get(i));

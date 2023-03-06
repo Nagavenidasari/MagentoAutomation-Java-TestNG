@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+			<listener class-name="listener.CustomListener"></listener>
+	</listeners>
+  <test name="Test1">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="item1" value="women"></parameter>
+  <parameter name="item2" value="wtops"></parameter>
+  <parameter name="item3" value="wjackets"></parameter>	
+  <parameter name="exp_title" value="Jackets"></parameter>	
+    <classes>
+      <class name="tests.MagentoSortItems_Price"/>
+    </classes>
+ 
+  </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name="browserName" value="chrome"></parameter>	
+  <parameter name="item1" value="men"></parameter>
+  <parameter name="item2" value="mtops"></parameter>
+  <parameter name="item3" value="mjackets"></parameter>	
+  <parameter name="exp_title" value="Jackets"></parameter>	
+    <classes>
+      <class name="tests.MagentoSortItems_Name"/>
+    </classes>
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
