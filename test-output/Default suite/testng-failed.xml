@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TechlisticStaticTableDataTest">
+      <class name="tests.MagentoStoreNavigationTest">
         <methods>
-          <include name="setup"/>
-          <include name="endTest"/>
-          <include name="StaticTableData"/>
-          <include name="getResult"/>
-          <include name="launchBrowser"/>
+          <include name="NavigationTest"/>
         </methods>
-      </class> <!-- tests.TechlisticStaticTableDataTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

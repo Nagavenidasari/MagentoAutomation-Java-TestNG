@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-02T14:13:41 CST" name="Suite" finished-at="2023-03-02T14:16:04 CST" duration-ms="143491">
+  <suite started-at="2023-03-06T09:14:30 CST" name="Suite" finished-at="2023-03-06T09:20:34 CST" duration-ms="363932">
     <groups>
     </groups>
-    <test started-at="2023-03-02T14:13:41 CST" name="Test1" finished-at="2023-03-02T14:14:09 CST" duration-ms="27664">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:41 CST" name="launchBrowser" finished-at="2023-03-02T14:13:45 CST" duration-ms="4325" status="PASS">
+    <test started-at="2023-03-06T09:14:30 CST" name="Test1" finished-at="2023-03-06T09:14:55 CST" duration-ms="24584">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3]" started-at="2023-03-06T09:14:30 CST" name="launchBrowser" finished-at="2023-03-06T09:14:34 CST" duration-ms="3809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,48 +18,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:45 CST" name="setup" finished-at="2023-03-02T14:13:46 CST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3]" started-at="2023-03-06T09:14:34 CST" name="setup" finished-at="2023-03-06T09:14:34 CST" duration-ms="232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:13:46 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:08 CST" duration-ms="22634" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3]" started-at="2023-03-06T09:14:34 CST" name="NavigationTest" finished-at="2023-03-06T09:14:54 CST" duration-ms="20117" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xsmall]]>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wjackets]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jackets]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:14:08 CST" name="getResult" finished-at="2023-03-02T14:14:08 CST" duration-ms="4" status="PASS">
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3]" started-at="2023-03-06T09:14:54 CST" name="getResult" finished-at="2023-03-06T09:14:54 CST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd] output={null}]]]>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@d9345cd]" started-at="2023-03-02T14:14:08 CST" name="endTest" finished-at="2023-03-02T14:14:09 CST" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@4c1909a3]" started-at="2023-03-06T09:14:54 CST" name="endTest" finished-at="2023-03-06T09:14:55 CST" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </test> <!-- Test1 -->
-    <test started-at="2023-03-02T14:14:09 CST" name="Test2" finished-at="2023-03-02T14:14:34 CST" duration-ms="25288">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:09 CST" name="launchBrowser" finished-at="2023-03-02T14:14:11 CST" duration-ms="2789" status="PASS">
+    <test started-at="2023-03-06T09:14:55 CST" name="Test2" finished-at="2023-03-06T09:15:18 CST" duration-ms="23041">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422]" started-at="2023-03-06T09:14:55 CST" name="launchBrowser" finished-at="2023-03-06T09:14:58 CST" duration-ms="2771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,48 +85,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:11 CST" name="setup" finished-at="2023-03-02T14:14:11 CST" duration-ms="0" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422]" started-at="2023-03-06T09:14:58 CST" name="NavigationTest" finished-at="2023-03-06T09:15:18 CST" duration-ms="20032" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33] output={null}]]]>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtees]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422]" started-at="2023-03-06T09:14:58 CST" name="setup" finished-at="2023-03-06T09:14:58 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:11 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:34 CST" duration-ms="22272" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422]" started-at="2023-03-06T09:15:18 CST" name="getResult" finished-at="2023-03-06T09:15:18 CST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[small]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:34 CST" name="endTest" finished-at="2023-03-02T14:14:34 CST" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33]" started-at="2023-03-02T14:14:34 CST" name="getResult" finished-at="2023-03-02T14:14:34 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@3e27aa33] output={null}]]]>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@3646a422]" started-at="2023-03-06T09:15:18 CST" name="endTest" finished-at="2023-03-06T09:15:18 CST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </test> <!-- Test2 -->
-    <test started-at="2023-03-02T14:14:34 CST" name="Test3" finished-at="2023-03-02T14:14:59 CST" duration-ms="25124">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:34 CST" name="launchBrowser" finished-at="2023-03-02T14:14:37 CST" duration-ms="2772" status="PASS">
+    <test started-at="2023-03-06T09:15:18 CST" name="Test3" finished-at="2023-03-06T09:15:41 CST" duration-ms="22947">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20]" started-at="2023-03-06T09:15:18 CST" name="launchBrowser" finished-at="2023-03-06T09:15:21 CST" duration-ms="2721" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,48 +152,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:37 CST" name="SelectSizeTest" finished-at="2023-03-02T14:14:59 CST" duration-ms="22121" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20]" started-at="2023-03-06T09:15:21 CST" name="setup" finished-at="2023-03-06T09:15:21 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[medium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:37 CST" name="setup" finished-at="2023-03-02T14:14:37 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:59 CST" name="getResult" finished-at="2023-03-02T14:14:59 CST" duration-ms="0" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20]" started-at="2023-03-06T09:15:21 CST" name="NavigationTest" finished-at="2023-03-06T09:15:41 CST" duration-ms="19997" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd] output={null}]]]>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wbottoms]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wpants]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20]" started-at="2023-03-06T09:15:41 CST" name="getResult" finished-at="2023-03-06T09:15:41 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@46cdf8bd]" started-at="2023-03-02T14:14:59 CST" name="endTest" finished-at="2023-03-02T14:14:59 CST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@298a5e20]" started-at="2023-03-06T09:15:41 CST" name="endTest" finished-at="2023-03-06T09:15:41 CST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </test> <!-- Test3 -->
-    <test started-at="2023-03-02T14:14:59 CST" name="Test4" finished-at="2023-03-02T14:15:25 CST" duration-ms="25660">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:14:59 CST" name="launchBrowser" finished-at="2023-03-02T14:15:02 CST" duration-ms="2762" status="PASS">
+    <test started-at="2023-03-06T09:15:41 CST" name="Test4" finished-at="2023-03-06T09:16:04 CST" duration-ms="23197">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808]" started-at="2023-03-06T09:15:41 CST" name="launchBrowser" finished-at="2023-03-06T09:15:43 CST" duration-ms="2695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,48 +219,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:02 CST" name="setup" finished-at="2023-03-02T14:15:02 CST" duration-ms="1" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808]" started-at="2023-03-06T09:15:43 CST" name="NavigationTest" finished-at="2023-03-06T09:16:04 CST" duration-ms="20270" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a] output={null}]]]>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wbottoms]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wshorts]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shorts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808]" started-at="2023-03-06T09:15:43 CST" name="setup" finished-at="2023-03-06T09:15:43 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:02 CST" name="SelectSizeTest" finished-at="2023-03-02T14:15:24 CST" duration-ms="22665" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808]" started-at="2023-03-06T09:16:04 CST" name="getResult" finished-at="2023-03-06T09:16:04 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[large]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:24 CST" name="endTest" finished-at="2023-03-02T14:15:25 CST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a]" started-at="2023-03-02T14:15:24 CST" name="getResult" finished-at="2023-03-02T14:15:24 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@644baf4a] output={null}]]]>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@26d9b808]" started-at="2023-03-06T09:16:04 CST" name="endTest" finished-at="2023-03-06T09:16:04 CST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </test> <!-- Test4 -->
-    <test started-at="2023-03-02T14:15:25 CST" name="Test5" finished-at="2023-03-02T14:15:50 CST" duration-ms="25392">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:25 CST" name="launchBrowser" finished-at="2023-03-02T14:15:27 CST" duration-ms="2725" status="PASS">
+    <test started-at="2023-03-06T09:16:04 CST" name="Test5" finished-at="2023-03-06T09:16:27 CST" duration-ms="22957">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff]" started-at="2023-03-06T09:16:04 CST" name="launchBrowser" finished-at="2023-03-06T09:16:07 CST" duration-ms="2765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,48 +286,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:27 CST" name="SelectSizeTest" finished-at="2023-03-02T14:15:50 CST" duration-ms="22435" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff]" started-at="2023-03-06T09:16:07 CST" name="setup" finished-at="2023-03-06T09:16:07 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xlarge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:27 CST" name="setup" finished-at="2023-03-02T14:15:27 CST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:50 CST" name="endTest" finished-at="2023-03-02T14:15:50 CST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9]" started-at="2023-03-02T14:15:50 CST" name="getResult" finished-at="2023-03-02T14:15:50 CST" duration-ms="0" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff]" started-at="2023-03-06T09:16:07 CST" name="NavigationTest" finished-at="2023-03-06T09:16:27 CST" duration-ms="19944" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=SUCCESS method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2a265ea9] output={null}]]]>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mjackets]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jackets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff]" started-at="2023-03-06T09:16:27 CST" name="getResult" finished-at="2023-03-06T09:16:27 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@54c5a2ff]" started-at="2023-03-06T09:16:27 CST" name="endTest" finished-at="2023-03-06T09:16:27 CST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
     </test> <!-- Test5 -->
-    <test started-at="2023-03-02T14:15:50 CST" name="Test6" finished-at="2023-03-02T14:16:04 CST" duration-ms="14338">
-      <class name="tests.MagentoSelectSizeShoppingoptionsTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:50 CST" name="launchBrowser" finished-at="2023-03-02T14:15:53 CST" duration-ms="2759" status="PASS">
+    <test started-at="2023-03-06T09:16:27 CST" name="Test6" finished-at="2023-03-06T09:16:50 CST" duration-ms="23262">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380]" started-at="2023-03-06T09:16:27 CST" name="launchBrowser" finished-at="2023-03-06T09:16:30 CST" duration-ms="2704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,61 +353,436 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:53 CST" name="setup" finished-at="2023-03-02T14:15:53 CST" duration-ms="0" status="PASS">
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380]" started-at="2023-03-06T09:16:30 CST" name="NavigationTest" finished-at="2023-03-06T09:16:50 CST" duration-ms="20300" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b] output={null}]]]>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mtees]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tees]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380]" started-at="2023-03-06T09:16:30 CST" name="setup" finished-at="2023-03-06T09:16:30 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:15:53 CST" name="SelectSizeTest" finished-at="2023-03-02T14:16:04 CST" duration-ms="10914" status="FAIL">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380]" started-at="2023-03-06T09:16:50 CST" name="endTest" finished-at="2023-03-06T09:16:50 CST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380]" started-at="2023-03-06T09:16:50 CST" name="getResult" finished-at="2023-03-06T09:16:50 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcd]]>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@6e6f2380] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test6 -->
+    <test started-at="2023-03-06T09:16:50 CST" name="Test7" finished-at="2023-03-06T09:17:13 CST" duration-ms="22926">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739]" started-at="2023-03-06T09:16:50 CST" name="launchBrowser" finished-at="2023-03-06T09:16:53 CST" duration-ms="2705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739]" started-at="2023-03-06T09:16:53 CST" name="NavigationTest" finished-at="2023-03-06T09:17:13 CST" duration-ms="19975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mbottoms]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mpants]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739]" started-at="2023-03-06T09:16:53 CST" name="setup" finished-at="2023-03-06T09:16:53 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739]" started-at="2023-03-06T09:17:13 CST" name="endTest" finished-at="2023-03-06T09:17:13 CST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739]" started-at="2023-03-06T09:17:13 CST" name="getResult" finished-at="2023-03-06T09:17:13 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test7 -->
+    <test started-at="2023-03-06T09:17:13 CST" name="Test8" finished-at="2023-03-06T09:17:36 CST" duration-ms="23049">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e]" started-at="2023-03-06T09:17:13 CST" name="launchBrowser" finished-at="2023-03-06T09:17:16 CST" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e]" started-at="2023-03-06T09:17:16 CST" name="setup" finished-at="2023-03-06T09:17:16 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e]" started-at="2023-03-06T09:17:16 CST" name="NavigationTest" finished-at="2023-03-06T09:17:36 CST" duration-ms="20105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mbottoms]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mshorts]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shorts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e]" started-at="2023-03-06T09:17:36 CST" name="endTest" finished-at="2023-03-06T09:17:36 CST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e]" started-at="2023-03-06T09:17:36 CST" name="getResult" finished-at="2023-03-06T09:17:36 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@2eae8e6e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test8 -->
+    <test started-at="2023-03-06T09:17:36 CST" name="Test9" finished-at="2023-03-06T09:17:59 CST" duration-ms="22827">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5]" started-at="2023-03-06T09:17:36 CST" name="launchBrowser" finished-at="2023-03-06T09:17:39 CST" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5]" started-at="2023-03-06T09:17:39 CST" name="setup" finished-at="2023-03-06T09:17:39 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5]" started-at="2023-03-06T09:17:39 CST" name="NavigationTest" finished-at="2023-03-06T09:17:59 CST" duration-ms="19832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mtanks]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tanks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5]" started-at="2023-03-06T09:17:59 CST" name="getResult" finished-at="2023-03-06T09:17:59 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@69e153c5]" started-at="2023-03-06T09:17:59 CST" name="endTest" finished-at="2023-03-06T09:17:59 CST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test9 -->
+    <test started-at="2023-03-06T09:17:59 CST" name="Test10" finished-at="2023-03-06T09:18:14 CST" duration-ms="14703">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8]" started-at="2023-03-06T09:17:59 CST" name="launchBrowser" finished-at="2023-03-06T09:18:02 CST" duration-ms="2695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8]" started-at="2023-03-06T09:18:02 CST" name="setup" finished-at="2023-03-06T09:18:02 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8]" started-at="2023-03-06T09:18:02 CST" name="NavigationTest" finished-at="2023-03-06T09:18:13 CST" duration-ms="11729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gbags]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bags]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8]" started-at="2023-03-06T09:18:13 CST" name="getResult" finished-at="2023-03-06T09:18:13 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@76b1e9b8]" started-at="2023-03-06T09:18:13 CST" name="endTest" finished-at="2023-03-06T09:18:14 CST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test10 -->
+    <test started-at="2023-03-06T09:18:14 CST" name="Test11" finished-at="2023-03-06T09:18:24 CST" duration-ms="10363">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff]" started-at="2023-03-06T09:18:14 CST" name="launchBrowser" finished-at="2023-03-06T09:18:16 CST" duration-ms="2708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff]" started-at="2023-03-06T09:18:16 CST" name="NavigationTest" finished-at="2023-03-06T09:18:24 CST" duration-ms="7401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gear]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff]" started-at="2023-03-06T09:18:16 CST" name="setup" finished-at="2023-03-06T09:18:16 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff]" started-at="2023-03-06T09:18:24 CST" name="endTest" finished-at="2023-03-06T09:18:24 CST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff]" started-at="2023-03-06T09:18:24 CST" name="getResult" finished-at="2023-03-06T09:18:24 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@793f29ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test11 -->
+    <test started-at="2023-03-06T09:18:24 CST" name="Test12" finished-at="2023-03-06T09:18:39 CST" duration-ms="14799">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0]" started-at="2023-03-06T09:18:24 CST" name="launchBrowser" finished-at="2023-03-06T09:18:27 CST" duration-ms="2702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0]" started-at="2023-03-06T09:18:27 CST" name="NavigationTest" finished-at="2023-03-06T09:18:38 CST" duration-ms="11693" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gfitness]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fitness]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element not interactable: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html has no size and location
-  (Session info: chrome=110.0.5481.178)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0664e72419cce794cc0e8c8542df1d28, actions {actions=[org.openqa.selenium.interactions.Sequence@34beadce]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0664e72419cce794cc0e8c8542df1d28]]>
+              <![CDATA[expected [Fitness] but found [Fitness Equipment]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: https://magento.softwaretestingboard.com/women/tops-women/tanks-women.html has no size and location
-  (Session info: chrome=110.0.5481.178)
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0664e72419cce794cc0e8c8542df1d28, actions {actions=[org.openqa.selenium.interactions.Sequence@34beadce]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:58548}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58548/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0664e72419cce794cc0e8c8542df1d28
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at pages.MagentoSortItems_PricePageObjects.navigatetoBrastees(MagentoSortItems_PricePageObjects.java:63)
-at tests.MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(MagentoSelectSizeShoppingoptionsTest.java:32)
+              <![CDATA[java.lang.AssertionError: expected [Fitness] but found [Fitness Equipment]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.MagentoStoreNavigationTest.NavigationTest(MagentoStoreNavigationTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -363,26 +813,492 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectSizeTest -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:16:04 CST" name="getResult" finished-at="2023-03-02T14:16:04 CST" duration-ms="430" status="PASS">
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0]" started-at="2023-03-06T09:18:27 CST" name="setup" finished-at="2023-03-06T09:18:27 CST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SelectSizeTest status=FAILURE method=MagentoSelectSizeShoppingoptionsTest.SelectSizeTest(java.lang.String)[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0]" started-at="2023-03-06T09:18:38 CST" name="getResult" finished-at="2023-03-06T09:18:39 CST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=FAILURE method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoSelectSizeShoppingoptionsTest@2e8c1c9b]" started-at="2023-03-02T14:16:04 CST" name="endTest" finished-at="2023-03-02T14:16:04 CST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@117159c0]" started-at="2023-03-06T09:18:39 CST" name="endTest" finished-at="2023-03-06T09:18:39 CST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- tests.MagentoSelectSizeShoppingoptionsTest -->
-    </test> <!-- Test6 -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test12 -->
+    <test started-at="2023-03-06T09:18:39 CST" name="Test13" finished-at="2023-03-06T09:18:54 CST" duration-ms="14796">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f]" started-at="2023-03-06T09:18:39 CST" name="launchBrowser" finished-at="2023-03-06T09:18:42 CST" duration-ms="2699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f]" started-at="2023-03-06T09:18:42 CST" name="NavigationTest" finished-at="2023-03-06T09:18:53 CST" duration-ms="11873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gwatches]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Watches]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f]" started-at="2023-03-06T09:18:42 CST" name="setup" finished-at="2023-03-06T09:18:42 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f]" started-at="2023-03-06T09:18:53 CST" name="getResult" finished-at="2023-03-06T09:18:53 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@235ecd9f]" started-at="2023-03-06T09:18:53 CST" name="endTest" finished-at="2023-03-06T09:18:54 CST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test13 -->
+    <test started-at="2023-03-06T09:18:54 CST" name="Test14" finished-at="2023-03-06T09:19:04 CST" duration-ms="10503">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36]" started-at="2023-03-06T09:18:54 CST" name="launchBrowser" finished-at="2023-03-06T09:18:56 CST" duration-ms="2756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36]" started-at="2023-03-06T09:18:56 CST" name="setup" finished-at="2023-03-06T09:18:56 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36]" started-at="2023-03-06T09:18:56 CST" name="NavigationTest" finished-at="2023-03-06T09:19:04 CST" duration-ms="7507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36]" started-at="2023-03-06T09:19:04 CST" name="endTest" finished-at="2023-03-06T09:19:04 CST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36]" started-at="2023-03-06T09:19:04 CST" name="getResult" finished-at="2023-03-06T09:19:04 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@74d1dc36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test14 -->
+    <test started-at="2023-03-06T09:19:04 CST" name="Test15" finished-at="2023-03-06T09:19:15 CST" duration-ms="10355">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c]" started-at="2023-03-06T09:19:04 CST" name="launchBrowser" finished-at="2023-03-06T09:19:07 CST" duration-ms="2730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c]" started-at="2023-03-06T09:19:07 CST" name="setup" finished-at="2023-03-06T09:19:07 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c]" started-at="2023-03-06T09:19:07 CST" name="NavigationTest" finished-at="2023-03-06T09:19:14 CST" duration-ms="7405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c]" started-at="2023-03-06T09:19:14 CST" name="endTest" finished-at="2023-03-06T09:19:15 CST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c]" started-at="2023-03-06T09:19:14 CST" name="getResult" finished-at="2023-03-06T09:19:14 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test15 -->
+    <test started-at="2023-03-06T09:19:15 CST" name="Test16" finished-at="2023-03-06T09:19:25 CST" duration-ms="10503">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a]" started-at="2023-03-06T09:19:15 CST" name="launchBrowser" finished-at="2023-03-06T09:19:17 CST" duration-ms="2777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a]" started-at="2023-03-06T09:19:17 CST" name="setup" finished-at="2023-03-06T09:19:17 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a]" started-at="2023-03-06T09:19:17 CST" name="NavigationTest" finished-at="2023-03-06T09:19:25 CST" duration-ms="7500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a]" started-at="2023-03-06T09:19:25 CST" name="getResult" finished-at="2023-03-06T09:19:25 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@548d708a]" started-at="2023-03-06T09:19:25 CST" name="endTest" finished-at="2023-03-06T09:19:25 CST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test16 -->
+    <test started-at="2023-03-06T09:19:25 CST" name="Test17" finished-at="2023-03-06T09:19:48 CST" duration-ms="22930">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096]" started-at="2023-03-06T09:19:25 CST" name="launchBrowser" finished-at="2023-03-06T09:19:28 CST" duration-ms="2772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096]" started-at="2023-03-06T09:19:28 CST" name="setup" finished-at="2023-03-06T09:19:28 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096]" started-at="2023-03-06T09:19:28 CST" name="NavigationTest" finished-at="2023-03-06T09:19:48 CST" duration-ms="19934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[whsweats]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hoodies & Sweatshirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096]" started-at="2023-03-06T09:19:48 CST" name="endTest" finished-at="2023-03-06T09:19:48 CST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096]" started-at="2023-03-06T09:19:48 CST" name="getResult" finished-at="2023-03-06T09:19:48 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test17 -->
+    <test started-at="2023-03-06T09:19:48 CST" name="Test18" finished-at="2023-03-06T09:20:11 CST" duration-ms="22824">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792]" started-at="2023-03-06T09:19:48 CST" name="launchBrowser" finished-at="2023-03-06T09:19:51 CST" duration-ms="2663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792]" started-at="2023-03-06T09:19:51 CST" name="NavigationTest" finished-at="2023-03-06T09:20:11 CST" duration-ms="19916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wbrastanks]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bras & Tanks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792]" started-at="2023-03-06T09:19:51 CST" name="setup" finished-at="2023-03-06T09:19:51 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792]" started-at="2023-03-06T09:20:11 CST" name="getResult" finished-at="2023-03-06T09:20:11 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@79e4c792]" started-at="2023-03-06T09:20:11 CST" name="endTest" finished-at="2023-03-06T09:20:11 CST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test18 -->
+    <test started-at="2023-03-06T09:20:11 CST" name="Test19" finished-at="2023-03-06T09:20:34 CST" duration-ms="23269">
+      <class name="tests.MagentoStoreNavigationTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883]" started-at="2023-03-06T09:20:11 CST" name="launchBrowser" finished-at="2023-03-06T09:20:13 CST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883]" started-at="2023-03-06T09:20:13 CST" name="setup" finished-at="2023-03-06T09:20:13 CST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883]" started-at="2023-03-06T09:20:13 CST" name="NavigationTest" finished-at="2023-03-06T09:20:34 CST" duration-ms="20362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[men]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mtops]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mhsweats]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hoodies & Sweatshirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:tests.MagentoStoreNavigationTest@1349883]" started-at="2023-03-06T09:20:34 CST" name="endTest" finished-at="2023-03-06T09:20:34 CST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883]" started-at="2023-03-06T09:20:34 CST" name="getResult" finished-at="2023-03-06T09:20:34 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigationTest status=SUCCESS method=MagentoStoreNavigationTest.NavigationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.MagentoStoreNavigationTest@1349883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.MagentoStoreNavigationTest -->
+    </test> <!-- Test19 -->
   </suite> <!-- Suite -->
 </testng-results>

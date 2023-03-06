@@ -20,6 +20,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -56,7 +57,7 @@ public class TestBase {
 		
 	@Parameters("browserName")
 	@BeforeTest(alwaysRun=true)
-	public void launchBrowser(String browserName) throws Exception {
+	public void launchBrowser(@Optional("chrome")String browserName) throws Exception {
 		System.out.println("Thread " + threadId + " running test");
 		System.out.println("Browser Name: "+browserName);
 		System.out.println("Thread ID: "+ Thread.currentThread().getId());
